@@ -15,6 +15,7 @@
 - [老师要求](teacher_requirements.md)
 - [实际设计决定与证据范围](decisions.md)
 - [后续结果复核与个人思考讨论提纲](discussion_plan.md)
+- [第10轮和第11轮可直接粘贴的真实数据、配置与记录摘录](discussion_inputs_round10_11.md)
 - [本轮文字修订说明](editorial_revision.md)
 - [实验分层汇总](results/derived/independent_summary.csv)
 - [全部实际协作记录索引](conversations/README.md)
