@@ -1,0 +1,1982 @@
+[
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 0,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0702,
+      "count_error": 0.0225,
+      "hotspot_jaccard": 0.6666666666666666,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8567,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0608,
+      "count_error": 0.0209,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.29969999999999997,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0738,
+      "count_error": 0.0502,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8575,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 1,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0743,
+      "count_error": 0.0188,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8596,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0639,
+      "count_error": 0.0188,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2996,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0717,
+      "count_error": 0.0464,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8586,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 2,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0695,
+      "count_error": 0.0228,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.855,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0598,
+      "count_error": 0.0198,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.29990000000000006,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.066,
+      "count_error": 0.0429,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8648,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 3,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0678,
+      "count_error": 0.0204,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8643000000000001,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0576,
+      "count_error": 0.0186,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.29810000000000003,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0654,
+      "count_error": 0.0428,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8495,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 4,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0683,
+      "count_error": 0.0206,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8573999999999999,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0582,
+      "count_error": 0.0184,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.29410000000000003,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "U",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0699,
+      "count_error": 0.0443,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8549,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 0,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0774,
+      "count_error": 0.0138,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8593,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0636,
+      "count_error": 0.0126,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2975,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0744,
+      "count_error": 0.0255,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8577,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 1,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0723,
+      "count_error": 0.0134,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8553,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0599,
+      "count_error": 0.0129,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.30210000000000004,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0753,
+      "count_error": 0.027,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8556,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 2,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0684,
+      "count_error": 0.0148,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8531,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0557,
+      "count_error": 0.0141,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.29169999999999996,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.071,
+      "count_error": 0.0252,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8535,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 3,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0695,
+      "count_error": 0.0134,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8576,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0613,
+      "count_error": 0.0132,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2935,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.069,
+      "count_error": 0.0247,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8637,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 4,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0723,
+      "count_error": 0.0141,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8582,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0614,
+      "count_error": 0.0141,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2982,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "C",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0724,
+      "count_error": 0.0252,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8523000000000001,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 0,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4214,
+      "count_error": 0.0443,
+      "hotspot_jaccard": 0.25,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2635,
+      "count_error": 0.041,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8971,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2656,
+      "count_error": 0.1037,
+      "hotspot_jaccard": 0.1111111111111111,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 1,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4163,
+      "count_error": 0.0552,
+      "hotspot_jaccard": 0.25,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2643,
+      "count_error": 0.0439,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8956,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2712,
+      "count_error": 0.0989,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 2,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4117,
+      "count_error": 0.0529,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2597,
+      "count_error": 0.0443,
+      "hotspot_jaccard": 0.25,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.9,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2737,
+      "count_error": 0.1039,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 3,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4076,
+      "count_error": 0.049,
+      "hotspot_jaccard": 0.1111111111111111,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2545,
+      "count_error": 0.0421,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.9004,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2708,
+      "count_error": 0.1034,
+      "hotspot_jaccard": 0.05263157894736842,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 4,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4135,
+      "count_error": 0.0495,
+      "hotspot_jaccard": 0.1111111111111111,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2653,
+      "count_error": 0.0423,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8982,
+    "false_safe": 0
+  },
+  {
+    "region": "hangzhou",
+    "distribution": "B",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2683,
+      "count_error": 0.1013,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 0,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0734,
+      "count_error": 0.0197,
+      "hotspot_jaccard": 0.6666666666666666,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8584,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0616,
+      "count_error": 0.0183,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.3032,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0695,
+      "count_error": 0.0444,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8577,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 1,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0724,
+      "count_error": 0.0214,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8604,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0623,
+      "count_error": 0.0192,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.30169999999999997,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0722,
+      "count_error": 0.0471,
+      "hotspot_jaccard": 0.6666666666666666,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8569,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 2,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.076,
+      "count_error": 0.0231,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8541,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0645,
+      "count_error": 0.0205,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.30110000000000003,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0744,
+      "count_error": 0.0471,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8556,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 3,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0723,
+      "count_error": 0.0206,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8524,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.063,
+      "count_error": 0.0196,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.29790000000000005,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0712,
+      "count_error": 0.0453,
+      "hotspot_jaccard": 0.42857142857142855,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8552,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 4,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.075,
+      "count_error": 0.0213,
+      "hotspot_jaccard": 0.6666666666666666,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.852,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0637,
+      "count_error": 0.0181,
+      "hotspot_jaccard": 0.6666666666666666,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.3013,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "U",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0701,
+      "count_error": 0.0459,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8523000000000001,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 0,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0768,
+      "count_error": 0.0156,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8527,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0633,
+      "count_error": 0.013,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2914,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0731,
+      "count_error": 0.0239,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8537,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 1,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0705,
+      "count_error": 0.014,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8511,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0612,
+      "count_error": 0.0142,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2984,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0722,
+      "count_error": 0.0255,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8557,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 2,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0726,
+      "count_error": 0.0171,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8522000000000001,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0605,
+      "count_error": 0.0153,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.3022,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.075,
+      "count_error": 0.024,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8582,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 3,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0763,
+      "count_error": 0.0137,
+      "hotspot_jaccard": 0.8181818181818182,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8519,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0653,
+      "count_error": 0.0135,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.30289999999999995,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0765,
+      "count_error": 0.0277,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8605,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 4,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.069,
+      "count_error": 0.0142,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8536,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0604,
+      "count_error": 0.0127,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.2902,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "C",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.0688,
+      "count_error": 0.0233,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8467,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 0,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4173,
+      "count_error": 0.0522,
+      "hotspot_jaccard": 0.1111111111111111,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2606,
+      "count_error": 0.0401,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8932,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 0,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2659,
+      "count_error": 0.0976,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 1,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4165,
+      "count_error": 0.054,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2621,
+      "count_error": 0.0434,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8946000000000001,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 1,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.266,
+      "count_error": 0.1021,
+      "hotspot_jaccard": 0.25,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 2,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.4155,
+      "count_error": 0.0595,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.266,
+      "count_error": 0.0461,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.904,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 2,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2717,
+      "count_error": 0.1012,
+      "hotspot_jaccard": 0.05263157894736842,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 3,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.417,
+      "count_error": 0.055,
+      "hotspot_jaccard": 0.17647058823529413,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2638,
+      "count_error": 0.0389,
+      "hotspot_jaccard": 0.5384615384615384,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8967,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 3,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.262,
+      "count_error": 0.1013,
+      "hotspot_jaccard": 0.05263157894736842,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 4,
+    "fine": 9,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.408,
+      "count_error": 0.054,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 8,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2592,
+      "count_error": 0.0394,
+      "hotspot_jaccard": 0.3333333333333333,
+      "effective_k": 10
+    },
+    "recoding_ratio": 0.8966,
+    "false_safe": 0
+  },
+  {
+    "region": "nanjing",
+    "distribution": "B",
+    "seed": 4,
+    "fine": 10,
+    "coarse": 9,
+    "n": 10000,
+    "local": {
+      "assignment_error": 0.0,
+      "count_error": 0.0,
+      "hotspot_jaccard": 1.0,
+      "effective_k": 10
+    },
+    "parent": {
+      "assignment_error": 0.2687,
+      "count_error": 0.1037,
+      "hotspot_jaccard": 0.1111111111111111,
+      "effective_k": 10
+    },
+    "recoding_ratio": 1.0,
+    "false_safe": 0
+  }
+]
