@@ -1,29 +1,24 @@
 # 课程项目交付核查
 
-本清单用于最终验收。完成状态必须由文件与实际执行记录支持。
+作者 jinchenying。以下状态由实际结果与文件核查支持。
 
-| 要求 | 当前证据 | 状态 |
+| 要求 | 交付证据 | 状态 |
 |---|---|---|
-| 具体知识点 | H3细格父级汇总与直接粗编码的点计数口径 | 已明确 |
-| 已有知识与探索边界 | proposal.md、decisions.md与官方资料链接 | 已记录 |
-| 最小反例 | results/pilot中的坐标、版本、PNG/PDF/SVG | 已完成 |
-| U/C/B受控数据 | datasets.py，两个区域，米制投影，冻结种子 | 已完成 |
-| 原版开发与随机评测 | 90组开发、180组评测，180万次点归属检查 | 已完成并保留 |
-| 原版成本 | workload_snapshot，18条工作负载，7次重复 | 已完成并保留 |
-| 原版失败证据 | supplement/boundary_probes.json，4条误判 | 已保存并公开 |
-| 保守修订 | methods_v2.py，1e-9度探测规则，registration | 已登记并启动 |
-| 修订版边界与开发 | 46080次边界回归与90组开发 | 已通过，原始文件待同步 |
-| 修订版新评测 | 种子200至209，180组 | 正在执行 |
-| 修订版新成本 | 种子200至202，18条 | 排在新评测之后 |
-| 原始坐标端到端成本 | 原版评测记录了细编码耗时，需在报告清楚解释 | 待最终核算 |
-| 不变数据强基线 | supplement/unchanged_data_baseline.json | 已执行，待写入最终报告 |
-| 完整实际Codex记录 | conversations/01_codex_actual.md，脱敏与导出manifest | 已公开快照，结束前再更新 |
-| 网页GPT实际讨论 | conversations/02_web_gpt_review.md | 已公开 |
-| 公开仓库 | main已有代码、原始结果、图表、初稿、对话 | 已上传，最终材料待补齐 |
-| 图文课程报告 | report_draft.md，7种用途的图，8页PDF工作版 | 初稿完成，最终修订待结果 |
-| 最终PDF逐页视觉检查 | tmp/pdf_review | 工作版已初查，最终版待重渲染 |
-| 唯一署名 | jinchenying，明确AI辅助和代发事实 | 已记录 |
+| 具体切入点与知识边界 | report.md第1、2节，细格父级与直接粗编码的点计数口径 | 完成 |
+| 可复现反例 | results/pilot，实际坐标及边界图 | 完成 |
+| 原版开发与评测 | 90组开发、180组评测、180万次点归属检查 | 完成 |
+| 原版成本与不利结果 | workload_snapshot，18条成本工作负载，7次重复 | 完成 |
+| 数值边界失败保留 | supplement/boundary_probes.json，46080次检查中的4条误判 | 完成 |
+| 修订版回归与开发 | revision_v2，46080次边界检查、90组开发 | 完成 |
+| 修订版新评测 | 种子200至209，180组，180万次点归属检查 | 完成 |
+| 修订版新成本 | 种子200至202，18条工作负载，20批次与7次重复 | 完成 |
+| 强基线与输入条件 | 不变数据计数复制、已有细格输入和端到端成本范围 | 已在报告解释 |
+| 实验覆盖与版本绑定 | results/derived/experiment_coverage_audit.json | 通过 |
+| 实际AI协作记录 | conversations/README.md索引及6个实际记录文件 | 已整理并脱敏 |
+| 记录完整性边界 | 早期原图未由接口返回，附件占位保留；内部推理不导出 | 已明确披露 |
+| 最终图文报告 | report.md、output/pdf/H3_course_report.pdf | 13页、13图 |
+| PDF结构与逐页视觉检查 | results/derived/report_structural_audit.json、final_delivery_audit.json | 通过 |
+| 署名与贡献说明 | 唯一署名jinchenying，AI参与及代拟问题如实说明 | 完成 |
+| 公开提交入口 | https://github.com/Augen-Jik/h3-boundary-aggregation-study | 最终文件随本清单发布 |
 
-运行环境实测为Intel Xeon Platinum8352V2.10GHz，容器CPU配额12核。计时进程设置OMP、MKL及OPENBLAS线程数为1。使用Python3.12与H3 Python/C4.5.0。GPU虽存在，H3和本项目代码不调用GPU。
-
-所有材料的独立性按实际来源说明。种子100至109在诊断后不会继续标成修订版的独立评测。两个区域均参加过开发，新种子提供同区域分布下的独立随机检查，不能称为空间域外泛化。
+独立评测仅指同一已知区域和生成分布下的新随机种子，不是空间域外泛化。有限探测不能代替几何证明。原版与修订版性能分别与各自同期直接编码基线比较，不把不同种子的版本差异解释为因果效果。

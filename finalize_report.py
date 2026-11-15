@@ -26,6 +26,7 @@ abstract = ("本项目研究已有细分辨率H3编码的点数据如何汇总�
             "比值大于1表示局部方法更快，小于1表示更慢。每批1000与10000点时，20批内修订版仍更慢。结果支持对正确性边界、缓存成本与适用条件进行具体分析，不能提供全球零误差保证。")
 source = source[:start] + abstract + source[end:]
 source = source.replace("## 6 独立评测结果", "## 6 修订前的随机评测结果")
+source = source.replace("实际 AI 对话 Markdown", "完整协作记录索引 https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/README.md  \n实际 AI 对话 Markdown", 1)
 source = source.replace("## 5 最小反例", "实验运行于Intel Xeon Platinum 8352V 2.10GHz的Linux容器，CPU配额12核。计时进程将OMP、MKL与OPENBLAS线程数设为1，四种方法串行交错执行。Python3.12，H3 Python/C均为4.5.0，numpy1.26.4、pyproj3.8.0。GPU未被项目代码调用。数据生成、绘图和正确性审计位于计时之外；各方法必需的编码、几何检查、查询和计数聚合均在相应计时范围内。\n\n## 5 最小反例")
 source = source.replace("## 7 成本与适用条件", "## 7 修订前的成本与适用条件")
 source = source.replace("### 数值边界修订与新的评测", "### 数值边界修订与新的评测")
@@ -36,6 +37,8 @@ old_collaboration = "用户提供选题计划和老师要求，指定研究执�
 new_collaboration = "我提供选题计划和老师要求，确定研究执行与提交范围，并委托AI协助编程、远程实验、审计、绘图与报告制作。网页GPT技术审查由执行助手代发，记录明确标注这一事实。设计与技术执行中AI参与较深，decisions.md登记了具体分工。Codex实际记录与网页GPT问答分别导出Markdown，保留错误、修订和真实工具结果。随机样本一致之后又发现数值边界失败，这一过程表明，协作评价需要检查证据覆盖范围，不能仅凭AI的初步结论判断方法可靠性。"
 assert old_collaboration in source
 source = source.replace(old_collaboration, new_collaboration)
+source = source.replace("我提供选题计划和老师要求", "早期原理讨论提出了核查官方知识、区分已有常识与探索空间的要求，实际问答也已归档。我提供选题计划和老师要求", 1)
+source = source.replace("保留错误、修订和真实工具结果。", "保留错误、修订和真实工具结果。早期会话接口未返回的图片以占位说明保留，没有重建原图；文字问答按接口返回内容完整导出。", 1)
 section = ["## 9 修订版的完整结果与成本", "",
            "修订版180组新种子评测的逐点差异和归一化计数差异均为0。下面的成本与原版分别计量，每条工作负载含20个不同新批次，每个种子重复7次。先取种子内累计耗时中位数，再汇总3个种子。", "",
            "| 分布 | 每批点数 | B1累计秒 | M2累计秒 | B1/M2 |", "|---|---|---|---|---|"]

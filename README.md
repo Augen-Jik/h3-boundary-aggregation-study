@@ -15,6 +15,7 @@
 - [老师要求](teacher_requirements.md)
 - [实际设计决定与证据范围](decisions.md)
 - [实验分层汇总](results/derived/independent_summary.csv)
+- [全部实际协作记录索引](conversations/README.md)
 - [实际Codex协作记录](conversations/01_codex_actual.md)
 - [网页GPT技术审查](conversations/02_web_gpt_review.md)
 - [提交核查清单](delivery_checklist.md)
@@ -47,3 +48,4 @@ PDF排版另使用requirements-report.txt，源文件为build_report_pdf.py，Wi
 - [full模式已知问题报告](https://github.com/uber/h3/pull/1271)
 
 full接口是实验功能，局部样本一致性不构成全域安全证明。B为边界压力分布，不能并入常规数据声称真实城市平均差异。已有细格编码为上游输入，计时与从原坐标开始的端到端成本应分别解释。相同不变数据重复查询时，预存粗计数是必要强基线。
+

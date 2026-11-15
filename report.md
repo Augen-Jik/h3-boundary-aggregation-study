@@ -5,6 +5,7 @@
 研究范围 两处局部区域的合成点计数与重复新批次成本
 
 公开仓库 https://github.com/Augen-Jik/h3-boundary-aggregation-study  
+完整协作记录索引 https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/README.md  
 实际 AI 对话 Markdown https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/01_codex_actual.md  
 网页 GPT 审查记录 https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/02_web_gpt_review.md  
 代码、原始结果、图表与报告已公开。对话记录保留实际提问、公开回答、失败与修订，服务器凭据脱敏。
@@ -188,7 +189,7 @@ N/U先在每个种子的首个批次计算，再对3个种子平均。它描述�
 
 ## 10 AI协作与个人贡献记录
 
-我提供选题计划和老师要求，确定研究执行与提交范围，并委托AI协助编程、远程实验、审计、绘图与报告制作。网页GPT技术审查由执行助手代发，记录明确标注这一事实。设计与技术执行中AI参与较深，decisions.md登记了具体分工。Codex实际记录与网页GPT问答分别导出Markdown，保留错误、修订和真实工具结果。随机样本一致之后又发现数值边界失败，这一过程表明，协作评价需要检查证据覆盖范围，不能仅凭AI的初步结论判断方法可靠性。
+早期原理讨论提出了核查官方知识、区分已有常识与探索空间的要求，实际问答也已归档。我提供选题计划和老师要求，确定研究执行与提交范围，并委托AI协助编程、远程实验、审计、绘图与报告制作。网页GPT技术审查由执行助手代发，记录明确标注这一事实。设计与技术执行中AI参与较深，decisions.md登记了具体分工。Codex实际记录与网页GPT问答分别导出Markdown，保留错误、修订和真实工具结果。早期会话接口未返回的图片以占位说明保留，没有重建原图；文字问答按接口返回内容完整导出。随机样本一致之后又发现数值边界失败，这一过程表明，协作评价需要检查证据覆盖范围，不能仅凭AI的初步结论判断方法可靠性。
 
 ## 11 结论
 

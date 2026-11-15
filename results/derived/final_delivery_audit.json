@@ -1,0 +1,20 @@
+{
+  "pages": 13,
+  "figures": 13,
+  "author": "jinchenying",
+  "required_links_pass": true,
+  "dialogue_hash_pass": true,
+  "pdf_sha256": "ef2b099dd3df54c4d13fc88cdc0fd845780afc590bcaf5e75b8cb4162ec90e6d",
+  "visual_page_review": "PASS: all 13 latest rendered pages inspected",
+  "experiment_coverage_pass": true,
+  "conversation_files": {
+    "01_codex_actual.md": "b0a0498c2046293c73247184e41638d04959a2270d8cae79b6e90016b9fb5781",
+    "02_web_gpt_review.md": "2a1292e29bc4e09017735dc8924a0a52b10455c95d92d6f33e12136ead427fa7",
+    "03_early_principles.md": "d65ac8abc81e065dcb589f4d635d51930b0aff60bd4b883b0026a7aca0758286",
+    "04_early_technical_review.md": "17408445c6346b73f672991052fce3a9ec4c260543f5b6b2635f93aaf1770053",
+    "05_topic_planning.md": "99247836d0fb3a3c7a4a57ed0af753b93e80867b48c8051e5444468f893ef88f",
+    "06_early_connection.md": "dbc1858ed89403b3900f01a831f12d9e6fdc07df23f4696b7abda9e1dd4d5a60",
+    "README.md": "c3c2ac8728f9fcca49850ee0197ad10c5684323f4041e5d5656d65473477a048"
+  },
+  "credential_redaction_check": "PASS"
+}

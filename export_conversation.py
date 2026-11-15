@@ -57,12 +57,12 @@ header = """# H3 课程项目实际 AI 协作记录
 """
 text = header + "\n".join(lines)
 path = output / "01_codex_actual.md"
-path.write_text(text, encoding="utf-8")
+path.write_text(text, encoding="utf-8", newline="\n")
 manifest = dict(source_session_id="01a1b966-6db0-7ca0-9a55-5e031202a794",
                 first_source_line=first, last_source_line=last, counts=dict(counts),
                 output_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
                 excluded="hidden reasoning, duplicate event records, pre-H3 material",
                 redacted="server password fields",
                 website_review_export_complete=(output / "02_web_gpt_review.md").exists())
-(output / "export_manifest.json").write_text(json.dumps(manifest, indent=2))
+(output / "export_manifest.json").write_text(json.dumps(manifest, indent=2), newline="\n")
 print(json.dumps(manifest))

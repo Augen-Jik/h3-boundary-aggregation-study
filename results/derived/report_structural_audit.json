@@ -4,6 +4,6 @@
   "author": "jinchenying",
   "required_links_pass": true,
   "dialogue_hash_pass": true,
-  "pdf_sha256": "a60b58b3d93f15b00174a481ecf5814f43e104d9d7699caa968284b91e387b27",
+  "pdf_sha256": "ef2b099dd3df54c4d13fc88cdc0fd845780afc590bcaf5e75b8cb4162ec90e6d",
   "visual_page_review": "required separately after latest render"
 }
