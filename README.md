@@ -8,15 +8,11 @@
 
 原版与修订版各完成90组开发验证、180组随机评测及18条成本工作负载。原版在46080次极近边界检查中出现4条误判。修订版通过已登记边界回归，并在新种子评测中得到逐点一致结果。每批10万点、累计20个新批次时，修订版相对同期直接编码的耗时比B1/M2为U组1.108、C组1.124；每批1000与10000点时仍较慢。因此，方法定位为已有细格编码、较密集新批次任务下的条件性优化。有限探测不构成全域正确性证明。
 
-- [最终图文报告 PDF](output/pdf/H3_course_report.pdf)
+- [主要对话：与ai对话过程](conversations/)
 - [最终报告 Markdown](report.md)
-- [报告版本说明与历史初稿](report_draft.md)
-- [实际设计决定与证据范围](decisions.md)
 - [修订版实验分层汇总](results/derived_v2/independent_summary.csv)
 - [原版实验分层汇总](results/derived/independent_summary.csv)
-- [当前状态及实验复核结论](current_status.md)
 - [原始记录重新计算审计](results/derived/current_results_audit.json)
-- [主要对话：指定分享会话导出](conversations/)
 - [提交核查清单](delivery_checklist.md)
 - [实验覆盖与源码绑定审计](results/derived/experiment_coverage_audit.json)
 
