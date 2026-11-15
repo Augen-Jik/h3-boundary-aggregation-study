@@ -90,7 +90,10 @@ def footer(canvas, document):
     canvas.drawString(22 * mm, 13 * mm, "jinchenying  H3 跨分辨率聚合研究")
     canvas.drawRightString(188 * mm, 13 * mm, str(document.page))
 
-path = out / ("H3_course_report.pdf" if final else "H3_report_working.pdf")
+output_name = (sys.argv[sys.argv.index("--output-name") + 1] if "--output-name" in sys.argv
+               else "H3_course_report.pdf" if final else "H3_report_working.pdf")
+assert Path(output_name).name == output_name and output_name.endswith(".pdf")
+path = out / output_name
 doc = SimpleDocTemplate(str(path), pagesize=A4, rightMargin=22 * mm, leftMargin=22 * mm,
                         topMargin=20 * mm, bottomMargin=22 * mm, title="H3 跨分辨率聚合中的边界归属偏差与局部重编码方法",
                         author="jinchenying")

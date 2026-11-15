@@ -1,9 +1,10 @@
 {
-  "pages": 13,
+  "pages": 14,
   "figures": 13,
   "author": "jinchenying",
+  "pdf_path": "output\\pdf\\H3_course_report.pdf",
   "required_links_pass": true,
   "dialogue_hash_pass": true,
-  "pdf_sha256": "ef2b099dd3df54c4d13fc88cdc0fd845780afc590bcaf5e75b8cb4162ec90e6d",
+  "pdf_sha256": "50a731a18b4b8614aa3462ffecf3121d1f500f9b493b566c1d212f3dc7720e8a",
   "visual_page_review": "required separately after latest render"
 }

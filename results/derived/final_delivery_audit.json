@@ -1,20 +1,23 @@
 {
-  "pages": 13,
+  "pages": 14,
   "figures": 13,
   "author": "jinchenying",
+  "pdf_path": "output\\pdf\\H3_course_report.pdf",
   "required_links_pass": true,
   "dialogue_hash_pass": true,
-  "pdf_sha256": "ef2b099dd3df54c4d13fc88cdc0fd845780afc590bcaf5e75b8cb4162ec90e6d",
-  "visual_page_review": "PASS: all 13 latest rendered pages inspected",
+  "pdf_sha256": "50a731a18b4b8614aa3462ffecf3121d1f500f9b493b566c1d212f3dc7720e8a",
+  "visual_page_review": "PASS: pages 1-14 inspected; final reference orphan removed",
   "experiment_coverage_pass": true,
+  "unchanged_result_table_rows": 24,
+  "editorial_date": "2026-11-15",
+  "credential_redaction_check": "PASS",
   "conversation_files": {
-    "01_codex_actual.md": "3de5951c43907341e91cf23752d76eed43353de6369a322550a4b3978b2dcd71",
+    "01_codex_actual.md": "94d1994cbe15cf965b116ec4568a21ea4bc580be1dae26b831d4c0e96da12b5b",
     "02_web_gpt_review.md": "2a1292e29bc4e09017735dc8924a0a52b10455c95d92d6f33e12136ead427fa7",
     "03_early_principles.md": "d65ac8abc81e065dcb589f4d635d51930b0aff60bd4b883b0026a7aca0758286",
     "04_early_technical_review.md": "17408445c6346b73f672991052fce3a9ec4c260543f5b6b2635f93aaf1770053",
     "05_topic_planning.md": "99247836d0fb3a3c7a4a57ed0af753b93e80867b48c8051e5444468f893ef88f",
     "06_early_connection.md": "dbc1858ed89403b3900f01a831f12d9e6fdc07df23f4696b7abda9e1dd4d5a60",
     "README.md": "c3c2ac8728f9fcca49850ee0197ad10c5684323f4041e5d5656d65473477a048"
-  },
-  "credential_redaction_check": "PASS"
+  }
 }

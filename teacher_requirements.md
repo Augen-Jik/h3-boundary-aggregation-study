@@ -14,4 +14,4 @@
 
 仓库 https://github.com/Augen-Jik/h3-boundary-aggregation-study
 
-GitHub 连接器首次创建 README 时返回 403 Resource not accessible by integration。随后通过现有 Git 登录完成代码、独立结果、图表与初稿的公开上传，提交41f10e39d704713aeffc40b0773034499e505248。完整实际对话与最终报告仍待补齐。
+报告、代码、原始结果与截至导出时的实际对话均已公开。实际对话范围及附件限制见conversations/README.md。后续讨论提纲单独保存为discussion_plan.md，不计作已经发生的问答。

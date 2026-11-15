@@ -64,5 +64,7 @@ conclusion = ("## 11 结论\n\n本作业将H3层级与几何口径差异转化�
               "同一份不变数据的重复查询可优先保存粗计数。所有不利结果与失败证据均随报告公开。\n\n")
 source = source.replace("## 参考资料", conclusion + "## 参考资料")
 assert "成本实验进行中" not in source
-(root / "report.md").write_text(source, encoding="utf-8")
+from polish_report import polish
+source = polish(source)
+(root / "report.md").write_text(source, encoding="utf-8", newline="\n")
 print(root / "report.md")

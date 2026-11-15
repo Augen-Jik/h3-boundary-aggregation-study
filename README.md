@@ -1,12 +1,12 @@
 # H3 跨分辨率聚合中的边界归属偏差与局部重编码方法
 
-作者 jinchenying。数据挖掘与技术课程项目，AI辅助过程与贡献如实记录。
+作者 jinchenying。数据挖掘与技术课程实验。AI参与的任务与实际讨论记录见decisions.md和conversations目录。
 
-本仓库研究已知细格编码的点数据如何汇总到指定粗格口径。H3的逻辑父子索引与严格几何包含不同，这是已有知识。本项目实现局部重编码与几何缓存，并测量逐点、计数、热点与运行成本。
+本仓库研究已具备细分辨率H3编码、且保留原始坐标的点数据如何汇总到直接粗编码口径。实验实现按已占用细格筛选的局部重编码与几何缓存，比较逐点归属、聚合计数、热点集合及运行成本。
 
-## 当前状态
+## 结果概要
 
-最终报告、代码、原始结果、图表及实际AI协作记录已整理。原版与修订版各有90组开发、180组随机评测与18条成本工作负载。原版46080次极近边界检查发现4条误判，证据完整保留；修订版边界回归及新种子评测均逐点一致。修订版在每批10万点、20个新批次时的B1/M2耗时比为U组1.108、C组1.124；每批1000与10000点时仍更慢。结论限定测试区域、库版本与输入条件。
+原版与修订版各完成90组开发验证、180组随机评测及18条成本工作负载。原版在46080次极近边界检查中出现4条误判。修订版通过已登记边界回归，并在新种子评测中得到逐点一致结果。每批10万点、累计20个新批次时，修订版相对同期直接编码的耗时比B1/M2为U组1.108、C组1.124；每批1000与10000点时仍较慢。因此，方法定位为已有细格编码、较密集新批次任务下的条件性优化。有限探测不构成全域正确性证明。
 
 - [最终图文报告 PDF](output/pdf/H3_course_report.pdf)
 - [最终报告 Markdown](report.md)
@@ -14,6 +14,8 @@
 - [题目计划与提示脚本](proposal.md)
 - [老师要求](teacher_requirements.md)
 - [实际设计决定与证据范围](decisions.md)
+- [后续结果复核与个人思考讨论提纲](discussion_plan.md)
+- [本轮文字修订说明](editorial_revision.md)
 - [实验分层汇总](results/derived/independent_summary.csv)
 - [全部实际协作记录索引](conversations/README.md)
 - [实际Codex协作记录](conversations/01_codex_actual.md)
@@ -39,7 +41,9 @@ python reproduce.py --version v2 --output /absolute/path/h3_v2_rerun
 
 PDF排版另使用requirements-report.txt，源文件为build_report_pdf.py，Windows下读取系统宋体。该脚本将报告渲染成PDF并生成逐页PNG供检查。实验环境与绘图环境分别记录，results/render_environment.json保存实际本地绘图依赖；原始实验在远端固定版本执行。排版、绘图与数据生成均不计入方法运行时间。
 
-结果与图表齐全后，依次运行verify_experiments.py、finalize_report.py、build_report_pdf.py --final和verify_report.py。实际对话是截至导出时的快照，范围与排除项见conversations/export_manifest.json。网页GPT原始问答中的引用标记按原文保留，报告正文使用可访问的来源链接。
+若本地PDF因查看器占用而不能覆盖，可添加--output-name H3_course_report_revised.pdf生成另一文件，并用verify_report.py --pdf output/pdf/H3_course_report_revised.pdf核查。仓库中的output/pdf/H3_course_report.pdf保持为当前提交版。
+
+结果与图表齐全后，依次运行verify_experiments.py、finalize_report.py、build_report_pdf.py --final和verify_report.py。finalize_report.py调用polish_report.py应用本轮文字修订。实际对话是截至导出时的快照，范围与排除项见conversations/export_manifest.json。网页GPT原始问答中的引用标记按原文保留，报告正文使用来源链接。discussion_plan.md仅为后续讨论提纲，不计作实际问答。
 
 ## 资料与局限
 
