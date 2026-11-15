@@ -7,9 +7,7 @@
 公开仓库 https://github.com/Augen-Jik/h3-boundary-aggregation-study  
 实际 AI 对话 Markdown https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/01_codex_actual.md  
 网页 GPT 审查记录 https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/02_web_gpt_review.md  
-代码、独立评测数据、图表与本初稿已上传公开仓库。对话文件是截至导出时的快照，最终提交前需补齐之后新增内容。
-
-本报告使用 AI 协助资料核查、编程、实验执行和写作。文中设计由 AI 提出或实现的部分在 decisions.md 中登记。题目计划与实际聊天分开保存，个人感想以作者实际表达为依据。
+代码、独立评测数据、图表与本初稿已上传公开仓库。
 
 ## 摘要
 
