@@ -48,7 +48,16 @@ def verify(version, evaluation, workloads, seeds, cost_seeds, source):
 
 reports = [verify("v1", root / "snapshot/results/evaluation",
                   root / "workload_snapshot/results/workloads", range(100, 110), [100, 101, 102], root)]
+original_boundary = read(root / "supplement/boundary_probes.json")
+assert sum(len(r["failures"]) for r in original_boundary) == 4
+assert sum(r["tested_points"] for r in original_boundary) == 46080
 if (root / "revision_v2").exists():
+    registration = read(root / "revision_v2/registration.json")
+    for name, expected in registration["files"].items():
+        assert hashlib.sha256((root / "revision_v2" / name).read_bytes()).hexdigest() == expected
+    new_boundary = read(root / "revision_v2/results/supplement/boundary_probes.json")
+    assert sum(r["tested_points"] for r in new_boundary) == 46080
+    assert all(not r["failures"] for r in new_boundary)
     reports.append(verify("v2", root / "revision_v2/results/evaluation",
                           root / "revision_v2/results/workloads", range(200, 210), [200, 201, 202],
                           root / "revision_v2"))

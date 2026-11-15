@@ -44,6 +44,11 @@ section += ["", "![修订版均匀分布累计成本](figures_v2/cumulative_U_10
 for r in twenty:
     section.append(f"| {r['distribution']} | {r['points_per_batch']} | {float(r['retained_python_bytes_mean_at_20']) / 1024 ** 2:.3f} |")
 section += ["", "内存单独使用tracemalloc测量，覆盖Python分配而非C库全部驻留内存。已有细格编码是各方法共同的输入前提；从原始坐标开始还需考虑细编码、数据组织和存储成本，不能将这里的增量耗时比直接称作端到端加速。", ""]
+section += ["| 分布 | 每批点数 | 首批每个已占用细格的平均点数 N/U | 20批累计缓存细格数 |", "|---|---|---|---|"]
+for r in twenty:
+    section.append(f"| {r['distribution']} | {r['points_per_batch']} | {float(r['first_batch_points_per_occupied_fine_mean']):.3f} | {float(r['geometry_entries_mean']):.1f} |")
+section += ["", "N/U先在每个种子的首个批次计算，再对3个种子平均。它描述占用密度，不能与后续批次的新单元数量混为一项。累计缓存数直接来自每批新增单元日志，所有新增几何判断已计入计时。", ""]
+section += ["数值余量使用角度单位，约束的是探测坐标的变化。它不是全球统一的米制缓冲距离，不同纬度的物理尺度不同。当前实验只覆盖指定中纬度区域，不推断极区或跨日期变更线的可靠性。", ""]
 source = source.replace("## 10 AI协作与个人贡献记录", "\n".join(section) + "\n## 10 AI协作与个人贡献记录")
 conclusion = ("## 11 结论\n\n本作业将H3层级与几何口径差异转化为可复现的点计数实验，并通过极近边界检查发现了常规随机评测遗漏的失败。"
               "保守修订在新随机样本和已登记边界回归中得到逐点一致，但有限数值探测仍不构成全域证明。"

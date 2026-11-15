@@ -34,6 +34,8 @@ for (region, distribution, fine, coarse), records in sorted(groups.items()):
         item[field + "_mean"] = float(np.mean(values))
         item[field + "_seed_sd"] = float(np.std(values, ddof=1))
     item["recoding_ratio_mean"] = float(np.mean([r["recoding_ratio"] for r in records]))
+    item["occupied_fine_cells_mean"] = float(np.mean([r["occupied"] for r in records]))
+    item["points_per_occupied_fine_mean"] = float(np.mean([r["n"] / r["occupied"] for r in records]))
     for method in ["B0", "B1", "M", "A1"]:
         medians = [np.median(r["warm_same_batch_timing_s"][method]) for r in records]
         item[method + "_seed_mean_median_s"] = float(np.mean(medians))

@@ -31,6 +31,8 @@ def text(value):
     value = re.sub(r"\*\*(.+?)\*\*", r"\1", value)
     value = re.sub(r"`([^`]+)`", r"\1", value)
     value = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<link href="\2" color="#145b86">\1</link>', value)
+    if "<link " not in value:
+        value = re.sub(r"https?://[^\s<>]+", lambda m: '<link href="' + m[0] + '" color="#145b86">' + m[0] + '</link>', value)
     return value
 
 final = "--final" in sys.argv

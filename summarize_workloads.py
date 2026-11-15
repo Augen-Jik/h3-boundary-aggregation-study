@@ -45,6 +45,8 @@ for (dist, n), records in sorted(groups.items()):
         row["direct_over_local_ratio_mean"] = float(ratios.mean())
         row["geometry_entries_mean"] = float(np.mean([
             sum(r["trials"][0]["new_cells"][:batches]) for r in records]))
+        row["first_batch_points_per_occupied_fine_mean"] = float(np.mean([
+            r["n"] / r["trials"][0]["new_cells"][0] for r in records]))
         row["retained_python_bytes_mean_at_20"] = float(np.mean([r["retained_python_bytes"] for r in records]))
         summary.append(row)
     fig, ax = plt.subplots(figsize=(6.4, 4.6))
