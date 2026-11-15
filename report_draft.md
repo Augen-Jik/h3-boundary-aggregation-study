@@ -6,7 +6,6 @@
 
 公开仓库 https://github.com/Augen-Jik/h3-boundary-aggregation-study  
 实际 AI 对话 Markdown https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/01_codex_actual.md  
-网页 GPT 审查记录 https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/02_web_gpt_review.md  
 代码、独立评测数据、图表与本初稿已上传公开仓库。
 
 ## 摘要
