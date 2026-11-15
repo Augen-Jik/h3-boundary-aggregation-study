@@ -35,6 +35,8 @@ def polish(source):
         if old in source:
             source = source.replace(old, new)
         else:
+            if old.startswith("题目计划与实际聊天"):
+                continue  # Preserve the user's deletion of this introduction.
             assert new in source, old
     start = source.index("## 10 研究取舍与AI协作说明") + len("## 10 研究取舍与AI协作说明\n\n")
     end = source.index("\n\n## 11 结论", start)

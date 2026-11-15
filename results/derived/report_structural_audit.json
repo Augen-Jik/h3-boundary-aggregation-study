@@ -5,6 +5,6 @@
   "pdf_path": "output\\pdf\\H3_course_report.pdf",
   "required_links_pass": true,
   "dialogue_hash_pass": true,
-  "pdf_sha256": "50a731a18b4b8614aa3462ffecf3121d1f500f9b493b566c1d212f3dc7720e8a",
+  "pdf_sha256": "5a9805141262f09a42b53b05efbec9fb2fd025fd2cccdffefd40d824fa83b146",
   "visual_page_review": "required separately after latest render"
 }

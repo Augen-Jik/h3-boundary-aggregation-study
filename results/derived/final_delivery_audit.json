@@ -5,12 +5,13 @@
   "pdf_path": "output\\pdf\\H3_course_report.pdf",
   "required_links_pass": true,
   "dialogue_hash_pass": true,
-  "pdf_sha256": "50a731a18b4b8614aa3462ffecf3121d1f500f9b493b566c1d212f3dc7720e8a",
-  "visual_page_review": "PASS: pages 1-14 inspected; final reference orphan removed",
+  "pdf_sha256": "5a9805141262f09a42b53b05efbec9fb2fd025fd2cccdffefd40d824fa83b146",
+  "visual_page_review": "PASS: all pages inspected; final page reviewed after removing reference orphan",
   "experiment_coverage_pass": true,
-  "unchanged_result_table_rows": 24,
-  "editorial_date": "2026-11-15",
-  "credential_redaction_check": "PASS",
+  "prior_numeric_table_rows_preserved": 24,
+  "current_numeric_table_rows": 36,
+  "new_physical_experiments": false,
+  "recomputed_summary_audit": "current_results_audit.json",
   "conversation_files": {
     "01_codex_actual.md": "be23ee6bd825a48b565ee9da368e6c78b6fdcef3ace4e38b73f02a0e08433f81",
     "02_web_gpt_review.md": "2a1292e29bc4e09017735dc8924a0a52b10455c95d92d6f33e12136ead427fa7",
@@ -18,26 +19,8 @@
     "04_early_technical_review.md": "17408445c6346b73f672991052fce3a9ec4c260543f5b6b2635f93aaf1770053",
     "05_topic_planning.md": "99247836d0fb3a3c7a4a57ed0af753b93e80867b48c8051e5444468f893ef88f",
     "06_early_connection.md": "dbc1858ed89403b3900f01a831f12d9e6fdc07df23f4696b7abda9e1dd4d5a60",
+    "README.md": "b2b8eb10fbca18ee258e6de0755c5ee920d34c2ebc167b6e5f136c8227aeb714",
     "archive/01_codex_execution_before_shared_replacement.md": "94d1994cbe15cf965b116ec4568a21ea4bc580be1dae26b831d4c0e96da12b5b",
-    "archive/shared_export_incomplete_five_turns.md": "d2f0621096d6be19e924eff609119f91f3cb83485216dbc2c10409f893fba885",
-    "README.md": "b2b8eb10fbca18ee258e6de0755c5ee920d34c2ebc167b6e5f136c8227aeb714"
-  },
-  "main_conversation_replacement": {
-    "source": "https://chatgpt.com/share/6af9c032-eba0-83e9-ae5c-4958ac7eb20a",
-    "turns": 9,
-    "prior_execution_record_archived": true,
-    "messages": 18,
-    "beginning_verified": true,
-    "consecutive_page_indices": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
-    ]
+    "archive/shared_export_incomplete_five_turns.md": "d2f0621096d6be19e924eff609119f91f3cb83485216dbc2c10409f893fba885"
   }
 }

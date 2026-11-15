@@ -19,7 +19,7 @@ assert reader.metadata.author == "jinchenying"
 assert len(reader.pages) >= 8
 links = []
 pdf_text = "\n".join(page.extract_text() for page in reader.pages)
-assert "条件性优化" in pdf_text, "PDF does not contain the current research position"
+assert "条件性优化" in re.sub(r"\s+", "", pdf_text), "PDF does not contain the current research position"
 for page in reader.pages:
     assert len(page.extract_text().strip()) > 30
     for annotation in page.get("/Annots", []):

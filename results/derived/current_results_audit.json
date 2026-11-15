@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-15",
+  "new_physical_experiments": false,
+  "recomputed_summary_rows": 18,
+  "summary_checks": [
+    {
+      "distribution": "C",
+      "n": 1000,
+      "batches": 1,
+      "paired_seed_ratio": 0.009724608301542946,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 1000,
+      "batches": 5,
+      "paired_seed_ratio": 0.031270123960148985,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 1000,
+      "batches": 20,
+      "paired_seed_ratio": 0.08637141526511312,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 10000,
+      "batches": 1,
+      "paired_seed_ratio": 0.05861213202268985,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 10000,
+      "batches": 5,
+      "paired_seed_ratio": 0.16675911034159546,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 10000,
+      "batches": 20,
+      "paired_seed_ratio": 0.41133216397694666,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 100000,
+      "batches": 1,
+      "paired_seed_ratio": 0.27187099345676335,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 100000,
+      "batches": 5,
+      "paired_seed_ratio": 0.7431935203935336,
+      "summary_matches": true
+    },
+    {
+      "distribution": "C",
+      "n": 100000,
+      "batches": 20,
+      "paired_seed_ratio": 1.12407945539582,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 1000,
+      "batches": 1,
+      "paired_seed_ratio": 0.008061594035792445,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 1000,
+      "batches": 5,
+      "paired_seed_ratio": 0.024203405732216347,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 1000,
+      "batches": 20,
+      "paired_seed_ratio": 0.06345892293157093,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 10000,
+      "batches": 1,
+      "paired_seed_ratio": 0.03945567001444937,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 10000,
+      "batches": 5,
+      "paired_seed_ratio": 0.13454643740380953,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 10000,
+      "batches": 20,
+      "paired_seed_ratio": 0.37520062657913394,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 100000,
+      "batches": 1,
+      "paired_seed_ratio": 0.2670926955045834,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 100000,
+      "batches": 5,
+      "paired_seed_ratio": 0.7374896825467586,
+      "summary_matches": true
+    },
+    {
+      "distribution": "U",
+      "n": 100000,
+      "batches": 20,
+      "paired_seed_ratio": 1.1081719457330799,
+      "summary_matches": true
+    }
+  ],
+  "v2_evaluation_records": 180,
+  "v2_recorded_interface_exceptions": 0,
+  "timing_scope": {
+    "M_constructor": "outside measured interval",
+    "A1_constructor": "inside each batch interval",
+    "M_cold_geometry_and_new_cells": "inside interval",
+    "fine_encoding": "outside interval",
+    "workload_correctness": "Counter equality after timing; separate evaluation checks point assignment"
+  },
+  "unresolved": [
+    "No component timing or per-cache hit counts",
+    "No global geometric proof",
+    "M constructor exclusion has not been separately quantified",
+    "Only three cost seeds; no significance claim"
+  ]
+}

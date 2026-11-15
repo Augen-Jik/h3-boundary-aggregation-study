@@ -36,7 +36,7 @@ def text(value):
     return value
 
 final = "--final" in sys.argv
-source = (root / ("report.md" if final else "report_draft.md")).read_text(encoding="utf-8").splitlines()
+source = (root / "report.md").read_text(encoding="utf-8").splitlines()
 story = []
 index = 0
 while index < len(source):

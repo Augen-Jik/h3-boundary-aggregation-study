@@ -10,14 +10,17 @@
 
 - [最终图文报告 PDF](output/pdf/H3_course_report.pdf)
 - [最终报告 Markdown](report.md)
-- [报告初稿与演进](report_draft.md)
+- [报告版本说明与历史初稿](report_draft.md)
 - [题目计划与提示脚本](proposal.md)
 - [老师要求](teacher_requirements.md)
 - [实际设计决定与证据范围](decisions.md)
 - [后续结果复核与个人思考讨论提纲](discussion_plan.md)
 - [第10轮和第11轮可直接粘贴的真实数据、配置与记录摘录](discussion_inputs_round10_11.md)
 - [本轮文字修订说明](editorial_revision.md)
-- [实验分层汇总](results/derived/independent_summary.csv)
+- [修订版实验分层汇总](results/derived_v2/independent_summary.csv)
+- [原版实验分层汇总](results/derived/independent_summary.csv)
+- [当前状态及实验复核结论](current_status.md)
+- [原始记录重新计算审计](results/derived/current_results_audit.json)
 - [全部实际协作记录索引](conversations/README.md)
 - [主要对话：指定分享会话导出](conversations/01_codex_actual.md)
 - [网页GPT技术审查](conversations/02_web_gpt_review.md)
@@ -44,7 +47,7 @@ PDF排版另使用requirements-report.txt，源文件为build_report_pdf.py，Wi
 
 若本地PDF因查看器占用而不能覆盖，可添加--output-name H3_course_report_revised.pdf生成另一文件，并用verify_report.py --pdf output/pdf/H3_course_report_revised.pdf核查。仓库中的output/pdf/H3_course_report.pdf保持为当前提交版。
 
-结果与图表齐全后，依次运行verify_experiments.py、finalize_report.py、build_report_pdf.py --final和verify_report.py。finalize_report.py调用polish_report.py应用本轮文字修订。实际对话是截至导出时的快照，范围与排除项见conversations/export_manifest.json。网页GPT原始问答中的引用标记按原文保留，报告正文使用来源链接。discussion_plan.md仅为后续讨论提纲，不计作实际问答。
+结果与图表齐全后，依次运行verify_experiments.py、audit_current_results.py、finalize_report.py、build_report_pdf.py --final和verify_report.py。finalize_report.py读取archive/report_source_v1.md，并调用polish_report.py与current_report_revision.py应用当前修订。实际对话是截至导出时的快照，范围与排除项见conversations/export_manifest.json。网页GPT原始问答中的引用标记按原文保留，报告正文使用来源链接。discussion_plan.md仅为后续讨论提纲，不计作实际问答。
 
 ## 资料与局限
 
@@ -54,3 +57,5 @@ PDF排版另使用requirements-report.txt，源文件为build_report_pdf.py，Wi
 
 full接口是实验功能，局部样本一致性不构成全域安全证明。B为边界压力分布，不能并入常规数据声称真实城市平均差异。已有细格编码为上游输入，计时与从原坐标开始的端到端成本应分别解释。相同不变数据重复查询时，预存粗计数是必要强基线。
 
+
+计时范围补充：M初始对象构造位于计时外，A1每批对象构造位于计时内。首批几何分类和新增细格处理已计时。A1/M反映组合状态复用与对象生命周期差异，不识别单一缓存组件的因果贡献。

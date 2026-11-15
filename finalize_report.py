@@ -14,7 +14,7 @@ twenty = [r for r in costs if int(r["batches"]) == 20]
 assert len(twenty) == 6
 ratios = {r["distribution"]: float(r["direct_over_local_ratio_mean"])
           for r in twenty if int(r["points_per_batch"]) == 100000}
-source = (root / "report_draft.md").read_text(encoding="utf-8")
+source = (root / "archive/report_source_v1.md").read_text(encoding="utf-8")
 source = source.replace("状态 实验结果部分已核验，成本实验与提交核查进行中", "研究范围 两处局部区域的合成点计数与重复新批次成本")
 source = source.replace("代码、独立评测数据、图表与本初稿已上传公开仓库。对话文件是截至导出时的快照，最终提交前需补齐之后新增内容。", "代码、原始结果、图表与报告已公开。对话记录保留实际提问、公开回答、失败与修订，服务器凭据脱敏。")
 start = source.index("本项目研究一种具体的空间统计口径差异。")
@@ -66,5 +66,7 @@ source = source.replace("## 参考资料", conclusion + "## 参考资料")
 assert "成本实验进行中" not in source
 from polish_report import polish
 source = polish(source)
+from current_report_revision import revise
+source = revise(source)
 (root / "report.md").write_text(source, encoding="utf-8", newline="\n")
 print(root / "report.md")
