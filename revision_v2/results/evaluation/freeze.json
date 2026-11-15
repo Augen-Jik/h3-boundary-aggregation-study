@@ -1,0 +1,57 @@
+{
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "regions": {
+    "hangzhou": [
+      120.15,
+      30.25
+    ],
+    "nanjing": [
+      118.8,
+      32.06
+    ]
+  },
+  "distributions": [
+    "U",
+    "C",
+    "B"
+  ],
+  "pairs": [
+    [
+      9,
+      8
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      9
+    ]
+  ],
+  "n": 10000,
+  "timing_repetitions": 7,
+  "versions": {
+    "c": "4.5.0",
+    "python": "4.5.0"
+  },
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-113-generic-x86_64-with-glibc2.35",
+  "files": {
+    "methods.py": "be7a1ccdd9d90405e0f16a80b51228d200a01ef26c49b6e6ed32c4df1e76ba2d",
+    "methods_v2.py": "de86509c0a1b3247302c343e9e41e237e313fcf92e94c27eb75a925354238dbf",
+    "datasets.py": "62ac1bc4d2e8313d946e563a1a5907bf6cc398417c587973c68bdd8a7be9e573",
+    "evaluate.py": "363497246c08bcfd4b29da475df52446bb42d1b46d544524999f55c250cc9a98"
+  }
+}

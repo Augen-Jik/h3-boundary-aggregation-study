@@ -1,0 +1,32 @@
+{
+  "reason": "Four numerical-boundary false-safe records in v1; no point-ID exception list",
+  "revision": "full-margin-v2",
+  "margin_degrees": 1e-09,
+  "independent_seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "cost_seeds": [
+    200,
+    201,
+    202
+  ],
+  "interpretation": "Empirical finite guard; no proof of global zero error",
+  "files": {
+    "methods.py": "be7a1ccdd9d90405e0f16a80b51228d200a01ef26c49b6e6ed32c4df1e76ba2d",
+    "methods_v2.py": "de86509c0a1b3247302c343e9e41e237e313fcf92e94c27eb75a925354238dbf",
+    "datasets.py": "62ac1bc4d2e8313d946e563a1a5907bf6cc398417c587973c68bdd8a7be9e573",
+    "supplement.py": "aba04cfd8810348f48dbef42967834cbe170d02513d5e7c9c6bd0b7c7cc69f61",
+    "develop_distributions.py": "342bf67101ba257f4b5f2df68e2603bdb7686be8acb4da1643e1f2c1a58738ae",
+    "evaluate.py": "363497246c08bcfd4b29da475df52446bb42d1b46d544524999f55c250cc9a98",
+    "workloads.py": "f29b45687476a5b381f9ede963a6d6599c81c146838a0573a07cda2b84a44996"
+  }
+}

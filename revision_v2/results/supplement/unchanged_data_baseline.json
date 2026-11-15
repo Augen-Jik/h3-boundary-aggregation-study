@@ -1,0 +1,54 @@
+[
+  {
+    "n": 10000,
+    "seed": 100,
+    "timings_s": {
+      "direct": [
+        0.016173556447029114,
+        0.01602528989315033,
+        0.015990570187568665,
+        0.01625838875770569,
+        0.01599271595478058,
+        0.01597735285758972,
+        0.015940546989440918
+      ],
+      "saved_counts_copy": [
+        2.5019049644470215e-05,
+        1.004338264465332e-05,
+        5.617737770080566e-06,
+        6.899237632751465e-06,
+        5.140900611877441e-06,
+        6.4373016357421875e-06,
+        4.693865776062012e-06
+      ]
+    },
+    "scope": "same unchanging dataset; saved counts already available",
+    "setup_cost": "initial direct encoding measured by direct path; retention and invalidation outside scope"
+  },
+  {
+    "n": 100000,
+    "seed": 100,
+    "timings_s": {
+      "direct": [
+        0.16734851896762848,
+        0.167547807097435,
+        0.1677827090024948,
+        0.16669456660747528,
+        0.16772086918354034,
+        0.16686546802520752,
+        0.16763129830360413
+      ],
+      "saved_counts_copy": [
+        3.27378511428833e-05,
+        2.3409724235534668e-05,
+        7.465481758117676e-06,
+        2.0623207092285156e-05,
+        7.569789886474609e-06,
+        2.180039882659912e-05,
+        6.67572021484375e-06
+      ]
+    },
+    "scope": "same unchanging dataset; saved counts already available",
+    "setup_cost": "initial direct encoding measured by direct path; retention and invalidation outside scope"
+  }
+]

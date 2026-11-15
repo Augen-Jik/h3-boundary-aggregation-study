@@ -1,0 +1,56 @@
+[
+  {
+    "region": "hangzhou",
+    "fine": 9,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1113
+  },
+  {
+    "region": "hangzhou",
+    "fine": 10,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 5042
+  },
+  {
+    "region": "hangzhou",
+    "fine": 10,
+    "coarse": 9,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1246
+  },
+  {
+    "region": "nanjing",
+    "fine": 9,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1119
+  },
+  {
+    "region": "nanjing",
+    "fine": 10,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 4951
+  },
+  {
+    "region": "nanjing",
+    "fine": 10,
+    "coarse": 9,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1165
+  }
+]
