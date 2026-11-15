@@ -1,6 +1,7 @@
 """Summaries use seeds as replicate units and preserve region/distribution strata."""
 import csv
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -10,21 +11,22 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 root = Path(__file__).parent
-source = root / "snapshot/results/evaluation"
+revision = "--revision-v2" in sys.argv
+source = root / ("revision_v2/results/evaluation" if revision else "snapshot/results/evaluation")
 rows = [json.loads(p.read_text()) for p in source.glob("*_*_*_*.json")]
 assert len(rows) == 180
 assert len({(r["region"], r["distribution"], r["fine"], r["coarse"], r["seed"]) for r in rows}) == 180
 assert all(r["false_safe"] == 0 and r["quality"]["M"]["assignment_error"] == 0 for r in rows)
-out = root / "results/derived"
+out = root / ("results/derived_v2" if revision else "results/derived")
 out.mkdir(parents=True, exist_ok=True)
-figures = root / "figures"
+figures = root / ("figures_v2" if revision else "figures")
 figures.mkdir(exist_ok=True)
 groups = defaultdict(list)
 for r in rows:
     groups[(r["region"], r["distribution"], r["fine"], r["coarse"])].append(r)
 summary = []
 for (region, distribution, fine, coarse), records in sorted(groups.items()):
-    assert {r["seed"] for r in records} == set(range(100, 110))
+    assert {r["seed"] for r in records} == set(range(200, 210) if revision else range(100, 110))
     item = dict(region=region, distribution=distribution, fine=fine, coarse=coarse, seeds=10,
                 point_evaluations=sum(r["n"] for r in records))
     for field in ["assignment_error", "count_error", "hotspot_jaccard"]:

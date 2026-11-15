@@ -1,5 +1,6 @@
 """Additional measured scatter and an explicitly schematic method diagram."""
 import json
+import sys
 from pathlib import Path
 
 import matplotlib
@@ -8,8 +9,11 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 
 root = Path(__file__).parent
-figures = root / "figures"
-rows = [json.loads(p.read_text()) for p in (root / "snapshot/results/evaluation").glob("*_*_*_*.json")]
+revision = "--revision-v2" in sys.argv
+figures = root / ("figures_v2" if revision else "figures")
+figures.mkdir(exist_ok=True)
+source = root / ("revision_v2/results/evaluation" if revision else "snapshot/results/evaluation")
+rows = [json.loads(p.read_text()) for p in source.glob("*_*_*_*.json")]
 assert len(rows) == 180
 colors = dict(U="#0072b2", C="#009e73", B="#d55e00")
 fig, ax = plt.subplots(figsize=(6.4, 4.8))
@@ -33,7 +37,7 @@ fig, ax = plt.subplots(figsize=(8, 4.6))
 ax.set(xlim=(0, 10), ylim=(0, 6))
 ax.axis("off")
 boxes = [(.25, 4.1, 2.3, 1.1, "Coordinates + fine IDs\nGroup occupied cells"),
-         (3.45, 4.1, 3.0, 1.1, "Logical parent + full filter\nVersioned geometry cache"),
+         (3.45, 4.1, 3.0, 1.1, "Full filter + margin probes\nVersioned geometry cache" if revision else "Logical parent + full filter\nVersioned geometry cache"),
          (7.35, 4.1, 2.3, 1.1, "Candidate interior\nUse parent ID"),
          (3.8, 1.9, 2.3, 1.1, "Risk / uncertainty\nEncode coordinates"),
          (7.35, 1.9, 2.3, 1.1, "Aggregate counts\nAudit against direct IDs")]

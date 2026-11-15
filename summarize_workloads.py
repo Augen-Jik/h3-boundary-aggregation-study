@@ -1,5 +1,6 @@
 import csv
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -9,16 +10,22 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 root = Path(__file__).parent
-rows = [json.loads(p.read_text()) for p in (root / "workload_snapshot/results/workloads").glob("*.json")
+revision = "--revision-v2" in sys.argv
+source = root / ("revision_v2/results/workloads" if revision else "workload_snapshot/results/workloads")
+figures = root / ("figures_v2" if revision else "figures")
+figures.mkdir(exist_ok=True)
+rows = [json.loads(p.read_text()) for p in source.glob("*.json")
         if not p.name.startswith("smoke_")]
 assert len(rows) == 18
 assert {(r["distribution"], r["n"], r["seed"]) for r in rows} == {
-    (dist, n, seed) for dist in ["U", "C"] for n in [1000, 10000, 100000] for seed in [100, 101, 102]}
+    (dist, n, seed) for dist in ["U", "C"] for n in [1000, 10000, 100000]
+    for seed in ([200, 201, 202] if revision else [100, 101, 102])}
 groups = defaultdict(list)
 for r in rows:
     assert r["repetitions"] == 7 and r["batches"] == 20
     groups[(r["distribution"], r["n"])].append(r)
-output = root / "results/derived"
+output = root / ("results/derived_v2" if revision else "results/derived")
+output.mkdir(parents=True, exist_ok=True)
 summary = []
 colors = {"B0": "#777777", "B1": "#0072b2", "M": "#d55e00", "A1": "#009e73"}
 for (dist, n), records in sorted(groups.items()):
@@ -51,7 +58,7 @@ for (dist, n), records in sorted(groups.items()):
              ha="center", fontsize=8)
     fig.tight_layout(rect=[0, .04, 1, 1])
     for extension in ["png", "svg", "pdf"]:
-        fig.savefig(root / "figures" / f"cumulative_{dist}_{n}.{extension}", dpi=180)
+        fig.savefig(figures / f"cumulative_{dist}_{n}.{extension}", dpi=180)
     plt.close(fig)
 with (output / "workload_summary.csv").open("w", newline="", encoding="utf-8-sig") as f:
     writer = csv.DictWriter(f, fieldnames=list(summary[0]))
