@@ -32,6 +32,8 @@ python reproduce.py --version v2 --output /absolute/path/h3_v2_rerun
 
 绘图由summarize.py、summarize_workloads.py、extra_figures.py与boundary_figure.py生成。添加--revision-v2可汇总修订版，原版读取snapshot/results/evaluation与workload_snapshot，修订版读取revision_v2/results。配置和代码哈希冻结于评测结果目录。resume_fix.json记录JSON配置比较修复，旧计时和修改前源码保留在recovery_evidence。verify_experiments.py在全量结果齐全后核对两个版本。
 
+PDF排版另使用requirements-report.txt，源文件为build_report_pdf.py，Windows下读取系统宋体。该脚本将报告渲染成PDF并生成逐页PNG供检查。实验环境与绘图环境分别记录，results/render_environment.json保存实际本地绘图依赖；原始实验在远端固定版本执行。排版、绘图与数据生成均不计入方法运行时间。
+
 ## 资料与局限
 
 - [H3官方层级说明](https://h3geo.org/docs/highlights/indexing/)
