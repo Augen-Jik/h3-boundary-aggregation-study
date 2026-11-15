@@ -1,0 +1,18 @@
+{
+  "reports": [
+    {
+      "version": "v1",
+      "scenarios": 180,
+      "point_evaluations": 1800000,
+      "workload_sequences": 18,
+      "measured_batch_method_calls": 10080,
+      "source_hashes": {
+        "methods.py": "be7a1ccdd9d90405e0f16a80b51228d200a01ef26c49b6e6ed32c4df1e76ba2d",
+        "datasets.py": "62ac1bc4d2e8313d946e563a1a5907bf6cc398417c587973c68bdd8a7be9e573",
+        "evaluate.py": "926cea28bb09d2969640e4dac697ddd653b69e64109a5cd991de196eb8c4978b"
+      },
+      "coverage_pass": true
+    }
+  ],
+  "scope": "Coverage, source binding and recorded sample consistency; finite evaluation only"
+}
