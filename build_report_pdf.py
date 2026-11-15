@@ -1,6 +1,7 @@
 """Render the evidence-based Markdown report and page images for visual review."""
 import html
 import re
+import sys
 from pathlib import Path
 
 import pypdfium2 as pdfium
@@ -32,7 +33,8 @@ def text(value):
     value = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<link href="\2" color="#145b86">\1</link>', value)
     return value
 
-source = (root / "report_draft.md").read_text(encoding="utf-8").splitlines()
+final = "--final" in sys.argv
+source = (root / ("report.md" if final else "report_draft.md")).read_text(encoding="utf-8").splitlines()
 story = []
 index = 0
 while index < len(source):
@@ -86,12 +88,12 @@ def footer(canvas, document):
     canvas.drawString(22 * mm, 13 * mm, "jinchenying  H3 跨分辨率聚合研究")
     canvas.drawRightString(188 * mm, 13 * mm, str(document.page))
 
-path = out / "H3_report_working.pdf"
+path = out / ("H3_course_report.pdf" if final else "H3_report_working.pdf")
 doc = SimpleDocTemplate(str(path), pagesize=A4, rightMargin=22 * mm, leftMargin=22 * mm,
                         topMargin=20 * mm, bottomMargin=22 * mm, title="H3 跨分辨率聚合中的边界归属偏差与局部重编码方法",
                         author="jinchenying")
 doc.build(story, onFirstPage=footer, onLaterPages=footer)
-pages = root / "tmp/pdf_review"
+pages = root / ("tmp/pdf_final_review" if final else "tmp/pdf_review")
 pages.mkdir(parents=True, exist_ok=True)
 pdf = pdfium.PdfDocument(path)
 for number, page in enumerate(pdf):
