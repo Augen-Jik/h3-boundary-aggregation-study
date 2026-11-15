@@ -7,7 +7,7 @@ from pathlib import Path
 
 source = Path(r"C:\Users\Augen\.codex\sessions\2026\11\08\rollout-2026-11-08T13-24-20-01a1b966-6db0-7ca0-9a55-5e031202a794.jsonl")
 root = Path(__file__).parent
-output = root / "conversations"
+output = root / "conversations/archive/codex_execution_updates"
 output.mkdir(exist_ok=True)
 lines = []
 active = False

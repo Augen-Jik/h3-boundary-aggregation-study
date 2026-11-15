@@ -12,12 +12,18 @@
   "editorial_date": "2026-11-15",
   "credential_redaction_check": "PASS",
   "conversation_files": {
-    "01_codex_actual.md": "94d1994cbe15cf965b116ec4568a21ea4bc580be1dae26b831d4c0e96da12b5b",
+    "01_codex_actual.md": "d2f0621096d6be19e924eff609119f91f3cb83485216dbc2c10409f893fba885",
     "02_web_gpt_review.md": "2a1292e29bc4e09017735dc8924a0a52b10455c95d92d6f33e12136ead427fa7",
     "03_early_principles.md": "d65ac8abc81e065dcb589f4d635d51930b0aff60bd4b883b0026a7aca0758286",
     "04_early_technical_review.md": "17408445c6346b73f672991052fce3a9ec4c260543f5b6b2635f93aaf1770053",
     "05_topic_planning.md": "99247836d0fb3a3c7a4a57ed0af753b93e80867b48c8051e5444468f893ef88f",
     "06_early_connection.md": "dbc1858ed89403b3900f01a831f12d9e6fdc07df23f4696b7abda9e1dd4d5a60",
-    "README.md": "c3c2ac8728f9fcca49850ee0197ad10c5684323f4041e5d5656d65473477a048"
+    "archive/01_codex_execution_before_shared_replacement.md": "94d1994cbe15cf965b116ec4568a21ea4bc580be1dae26b831d4c0e96da12b5b",
+    "README.md": "7fce43676baf193cd8ae0232e1155cee66dedabb9eb73b0bfc708fe48c46fa1f"
+  },
+  "main_conversation_replacement": {
+    "source": "https://chatgpt.com/share/6af9c032-eba0-83e9-ae5c-4958ac7eb20a",
+    "turns": 5,
+    "prior_execution_record_archived": true
   }
 }

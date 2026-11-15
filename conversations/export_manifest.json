@@ -1,16 +1,17 @@
 {
-  "source_session_id": "01a1b966-6db0-7ca0-9a55-5e031202a794",
-  "first_source_line": 3436,
-  "last_source_line": 5415,
-  "counts": {
-    "message": 109,
-    "custom_tool_call": 200,
-    "custom_tool_call_output": 199,
-    "function_call_output": 29,
-    "function_call": 21
-  },
-  "output_sha256": "94d1994cbe15cf965b116ec4568a21ea4bc580be1dae26b831d4c0e96da12b5b",
-  "excluded": "hidden reasoning, duplicate event records, pre-H3 material",
-  "redacted": "server password fields",
+  "source_type": "ChatGPT shared conversation; source app export",
+  "source_url": "https://chatgpt.com/share/6af9c032-eba0-83e9-ae5c-4958ac7eb20a",
+  "source_thread_id": "6af93921-99b8-83ea-8f7b-6a0c85251b47",
+  "source_title": "H3 父子网格聚合原理",
+  "exported_date": "2026-11-15",
+  "output_file": "01_codex_actual.md",
+  "filename_note": "Legacy entry retained for report link compatibility; source is ChatGPT",
+  "turns": 5,
+  "user_messages": 5,
+  "assistant_messages": 5,
+  "has_more": false,
+  "output_sha256": "d2f0621096d6be19e924eff609119f91f3cb83485216dbc2c10409f893fba885",
+  "old_execution_archive": "archive/01_codex_execution_before_shared_replacement.md",
+  "excluded": "Hidden reasoning and unavailable backend tools",
   "website_review_export_complete": true
 }

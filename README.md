@@ -19,7 +19,7 @@
 - [本轮文字修订说明](editorial_revision.md)
 - [实验分层汇总](results/derived/independent_summary.csv)
 - [全部实际协作记录索引](conversations/README.md)
-- [实际Codex协作记录](conversations/01_codex_actual.md)
+- [主要对话：指定分享会话导出](conversations/01_codex_actual.md)
 - [网页GPT技术审查](conversations/02_web_gpt_review.md)
 - [提交核查清单](delivery_checklist.md)
 - [实验覆盖与源码绑定审计](results/derived/experiment_coverage_audit.json)
