@@ -13,14 +13,16 @@
   "new_physical_experiments": false,
   "recomputed_summary_audit": "current_results_audit.json",
   "conversation_files": {
-    "01_codex_actual.md": "be23ee6bd825a48b565ee9da368e6c78b6fdcef3ace4e38b73f02a0e08433f81",
-    "02_web_gpt_review.md": "2a1292e29bc4e09017735dc8924a0a52b10455c95d92d6f33e12136ead427fa7",
-    "03_early_principles.md": "d65ac8abc81e065dcb589f4d635d51930b0aff60bd4b883b0026a7aca0758286",
-    "04_early_technical_review.md": "17408445c6346b73f672991052fce3a9ec4c260543f5b6b2635f93aaf1770053",
+    "01对话.md": "5e4e2fe99228d071b301ef361fa4d81b046fb94e480a6bd4f932ea905608b298",
+    "02_web_gpt_review.md": "00b94f4303e57539d6c296e543893a43ce276b71f6794ca5ca57ce3d8cdaf972",
+    "02技术审查对话.md": "214527f9a89daaa4278242f5e32aaa0a4c87e597426654bf4507b0a506317e98",
+    "03_early_principles.md": "2b2d5d4d889f2c76d51045ed24c920a3eecaaa6121fa665194cc9ea1a3f132fe",
+    "04_early_technical_review.md": "1b8e6133a56c10cc5249a430bac9d42464e2a3bcfb33bd64e0e2c69cf1e61b6c",
     "05_topic_planning.md": "99247836d0fb3a3c7a4a57ed0af753b93e80867b48c8051e5444468f893ef88f",
     "06_early_connection.md": "dbc1858ed89403b3900f01a831f12d9e6fdc07df23f4696b7abda9e1dd4d5a60",
     "README.md": "b2b8eb10fbca18ee258e6de0755c5ee920d34c2ebc167b6e5f136c8227aeb714",
     "archive/01_codex_execution_before_shared_replacement.md": "94d1994cbe15cf965b116ec4568a21ea4bc580be1dae26b831d4c0e96da12b5b",
     "archive/shared_export_incomplete_five_turns.md": "d2f0621096d6be19e924eff609119f91f3cb83485216dbc2c10409f893fba885"
-  }
+  },
+  "review_rename_compatibility": "Original review renamed by author to 02技术审查对话.md; former path retained as redirect for PDF links"
 }
