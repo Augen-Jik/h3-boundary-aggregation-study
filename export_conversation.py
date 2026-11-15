@@ -50,7 +50,7 @@ for index, line in enumerate(source.open(encoding="utf-8")):
     last = index
 header = """# H3 课程项目实际 AI 协作记录
 
-平台为 Codex 桌面应用。本文件来自本地当前会话的实际记录，按原顺序保存H3项目开始后的用户消息、公开AI回答及工具调用和结果。自动目标上下文另外标注，不能当作作者再次主动提问。隐藏推理和重复计费事件不导出。服务器密码字段脱敏。网页GPT技术审查是另一个真实会话，尚须单独导出，其内容没有由本文件重建。
+平台为 Codex 桌面应用。本文件来自本地当前会话的实际记录，按原顺序保存H3项目开始后的用户消息、公开AI回答及工具调用和结果。自动目标上下文另外标注，不能当作作者再次主动提问。隐藏推理和重复计费事件不导出。服务器密码字段脱敏。网页GPT技术审查是另一个真实会话，其实际问答单列在02_web_gpt_review.md，其内容没有由本文件重建。
 
 本文件是截至导出时的快照。此后新增对话需重新导出。前置STAG研究对话不属于本课程项目，未混入。计划书中的逐轮问题属于脚本，不能当作已经发生的学生对话。
 
@@ -62,6 +62,7 @@ manifest = dict(source_session_id="01a1b966-6db0-7ca0-9a55-5e031202a794",
                 first_source_line=first, last_source_line=last, counts=dict(counts),
                 output_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
                 excluded="hidden reasoning, duplicate event records, pre-H3 material",
-                redacted="server password fields", website_review_export_complete=False)
+                redacted="server password fields",
+                website_review_export_complete=(output / "02_web_gpt_review.md").exists())
 (output / "export_manifest.json").write_text(json.dumps(manifest, indent=2))
 print(json.dumps(manifest))

@@ -5,7 +5,9 @@
 状态 实验结果部分已核验，成本实验与提交核查进行中
 
 公开仓库 https://github.com/Augen-Jik/h3-boundary-aggregation-study  
-完整实际 AI 对话 Markdown 链接待导出上传后补齐。代码、独立评测数据、图表与本初稿已上传公开仓库，最终材料仍在整理。
+实际 AI 对话 Markdown https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/01_codex_actual.md  
+网页 GPT 审查记录 https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/02_web_gpt_review.md  
+代码、独立评测数据、图表与本初稿已上传公开仓库。对话文件是截至导出时的快照，最终提交前需补齐之后新增内容。
 
 本报告使用 AI 协助资料核查、编程、实验执行和写作。文中设计由 AI 提出或实现的部分在 decisions.md 中登记。题目计划与实际聊天分开保存，个人感想以作者实际表达为依据。
 
@@ -93,7 +95,7 @@ U组为均匀分布。C组由80%固定三簇高斯样本与20%均匀背景组成
 
 ## 9 AI协作与个人贡献记录
 
-用户提供选题计划和老师要求，指定研究执行范围与作者署名。AI实现数据生成、方法、实验审计和图表，并另向网页GPT提交真实技术审查请求。该请求已注明由执行助手代发。尚未由作者表达的反驳与感想不写成实际发生的互动。完整聊天Markdown导出与仓库上传仍属提交待办。
+用户提供选题计划和老师要求，指定研究执行范围与作者署名。AI实现数据生成、方法、实验审计和图表，并另向网页GPT提交真实技术审查请求。该请求已注明由执行助手代发。尚未由作者表达的反驳与感想不写成实际发生的互动。Codex实际记录及网页GPT问答已分别导出Markdown，导出后新增内容需在最终提交前补齐。
 
 ## 参考资料
 
