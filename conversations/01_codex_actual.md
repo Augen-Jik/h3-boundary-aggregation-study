@@ -1,8 +1,4 @@
-# H3实际讨论完整记录
-
-作者 jinchenying。
-
-来源 https://chatgpt.com/share/6af9c032-eba0-83e9-ae5c-4958ac7eb20a
+# 讨论记录
 
 ## 提问目录
 
