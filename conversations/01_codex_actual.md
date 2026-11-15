@@ -1,14 +1,8 @@
 # H3实际讨论完整记录
 
-作者 jinchenying。导出日期为2026年11月15日。
+作者 jinchenying。
 
 来源 https://chatgpt.com/share/6af9c032-eba0-83e9-ae5c-4958ac7eb20a
-
-本次从分享页顶部开始逐段滚动读取，到末条回复结束。页面连续编号为0至8，共9轮、18条消息。此前接口仅返回末5轮，现已补齐前4轮。下文按实际顺序导出，未补写或改写问答。
-
-文字、表格和代码转换为Markdown，公式使用页面保存的TeX表示，页面内原始SVG示意图另存assets。交互图保留可读取的文字内容，交互功能不在Markdown中重现；原始逐消息页面内容同时压缩保存为[原始导出](assets/shared_page_messages_original.json.gz)。隐藏推理与未展示的后台工具明细不在本文件中。
-
-文件名沿用旧入口以兼容报告链接，来源是上述ChatGPT分享会话，不是Codex日志。旧执行记录仍在archive目录。
 
 ## 提问目录
 
