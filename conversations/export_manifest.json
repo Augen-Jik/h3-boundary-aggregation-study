@@ -1,17 +1,99 @@
 {
-  "source_type": "ChatGPT shared conversation; source app export",
+  "source_type": "Shared-page rendered messages, loaded by scrolling from beginning to end",
   "source_url": "https://chatgpt.com/share/6af9c032-eba0-83e9-ae5c-4958ac7eb20a",
   "source_thread_id": "6af93921-99b8-83ea-8f7b-6a0c85251b47",
   "source_title": "H3 父子网格聚合原理",
   "exported_date": "2026-11-15",
   "output_file": "01_codex_actual.md",
   "filename_note": "Legacy entry retained for report link compatibility; source is ChatGPT",
-  "turns": 5,
-  "user_messages": 5,
-  "assistant_messages": 5,
+  "turns": 9,
+  "user_messages": 9,
+  "assistant_messages": 9,
   "has_more": false,
-  "output_sha256": "d2f0621096d6be19e924eff609119f91f3cb83485216dbc2c10409f893fba885",
+  "output_sha256": "be23ee6bd825a48b565ee9da368e6c78b6fdcef3ace4e38b73f02a0e08433f81",
   "old_execution_archive": "archive/01_codex_execution_before_shared_replacement.md",
   "excluded": "Hidden reasoning and unavailable backend tools",
-  "website_review_export_complete": true
+  "website_review_export_complete": true,
+  "first_user_message": "我想研究 H3 父子网格聚合，但现在还不是很理解基本原理。请用一个位置点解释：先编码成细网格再找父格，与直接编码成粗网格有什么区别？先讲原理与可能的反例",
+  "page_turn_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source_dom_archive": "assets/shared_page_messages_original.json.gz",
+  "source_dom_archive_sha256": "2b0a5d85cb4b8d49467dd2eef83eeb7f975e9cdef85dd6d23d45eabb87591860",
+  "prior_export_incomplete": true,
+  "prior_export_note": "API returned only last 5 turns; superseded by full shared-page traversal",
+  "message_coverage": [
+    {
+      "turn": 1,
+      "user_key": "fallback-turn-0:0:user",
+      "assistant_key": "fallback-turn-0:2:assistant",
+      "user_characters": 76,
+      "assistant_markdown_characters": 3263
+    },
+    {
+      "turn": 2,
+      "user_key": "fallback-turn-1:0:user",
+      "assistant_key": "fallback-turn-1:2:assistant",
+      "user_characters": 78,
+      "assistant_markdown_characters": 3845
+    },
+    {
+      "turn": 3,
+      "user_key": "fallback-turn-2:0:user",
+      "assistant_key": "fallback-turn-2:2:assistant",
+      "user_characters": 77,
+      "assistant_markdown_characters": 3114
+    },
+    {
+      "turn": 4,
+      "user_key": "fallback-turn-3:0:user",
+      "assistant_key": "fallback-turn-3:2:assistant",
+      "user_characters": 80,
+      "assistant_markdown_characters": 5324
+    },
+    {
+      "turn": 5,
+      "user_key": "fallback-turn-4:0:user",
+      "assistant_key": "fallback-turn-4:2:assistant",
+      "user_characters": 82,
+      "assistant_markdown_characters": 6629
+    },
+    {
+      "turn": 6,
+      "user_key": "fallback-turn-5:0:user",
+      "assistant_key": "fallback-turn-5:2:assistant",
+      "user_characters": 75,
+      "assistant_markdown_characters": 4521
+    },
+    {
+      "turn": 7,
+      "user_key": "fallback-turn-6:0:user",
+      "assistant_key": "fallback-turn-6:2:assistant",
+      "user_characters": 89,
+      "assistant_markdown_characters": 5659
+    },
+    {
+      "turn": 8,
+      "user_key": "fallback-turn-7:0:user",
+      "assistant_key": "fallback-turn-7:2:assistant",
+      "user_characters": 416,
+      "assistant_markdown_characters": 7813
+    },
+    {
+      "turn": 9,
+      "user_key": "fallback-turn-8:0:user",
+      "assistant_key": "fallback-turn-8:2:assistant",
+      "user_characters": 92,
+      "assistant_markdown_characters": 8367
+    }
+  ],
+  "svg_figures": 9
 }
