@@ -1,0 +1,16 @@
+{
+  "source_session_id": "01a1b966-6db0-7ca0-9a55-5e031202a794",
+  "first_source_line": 3436,
+  "last_source_line": 4094,
+  "counts": {
+    "message": 42,
+    "custom_tool_call": 60,
+    "custom_tool_call_output": 59,
+    "function_call_output": 22,
+    "function_call": 18
+  },
+  "output_sha256": "65a19df1aa647515adb03646a9b0094f763b3777a1509959f8c09186e4b2fc38",
+  "excluded": "hidden reasoning, duplicate event records, pre-H3 material",
+  "redacted": "server password fields",
+  "website_review_export_complete": false
+}
