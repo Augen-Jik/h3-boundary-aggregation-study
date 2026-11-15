@@ -1,0 +1,43 @@
+{
+  "region": "hangzhou",
+  "distribution": "C",
+  "fine": 10,
+  "coarse": 8,
+  "n": 1000,
+  "seed": 0,
+  "batches": 2,
+  "repetitions": 1,
+  "trials": [
+    {
+      "batch_s": {
+        "B0": [
+          0.0006625950336456299,
+          0.0005476027727127075
+        ],
+        "B1": [
+          0.0011214464902877808,
+          0.0011059492826461792
+        ],
+        "M": [
+          0.08506226539611816,
+          0.02867943048477173
+        ],
+        "A1": [
+          0.08394141495227814,
+          0.09551838040351868
+        ]
+      },
+      "new_cells": [
+        572,
+        320
+      ]
+    }
+  ],
+  "versions": {
+    "c": "4.5.0",
+    "python": "4.5.0"
+  },
+  "retained_python_bytes": 843806,
+  "peak_python_bytes": 892335,
+  "memory_scope": "Python allocations, excludes C library RSS"
+}
