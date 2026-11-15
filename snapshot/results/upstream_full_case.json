@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/uber/h3/pull/1271",
+  "versions": {
+    "c": "4.5.0",
+    "python": "4.5.0"
+  },
+  "polygon_cell": "837c16fffffffff",
+  "full_result": [],
+  "known_outside_neighbor": "837c12fffffffff",
+  "reproduced": false,
+  "scope": "same-resolution upstream API regression; distinct from project fine-to-coarse subset"
+}

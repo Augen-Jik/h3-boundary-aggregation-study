@@ -1,0 +1,6 @@
+{
+  "reason": "Normalize tuple/list JSON roundtrip in manifest equality only",
+  "original_evaluator_sha256": "97dc55f3f8fde29f33219de16bde834280aa79aa048936712dd76bcd0834e668",
+  "updated_evaluator_sha256": "926cea28bb09d2969640e4dac697ddd653b69e64109a5cd991de196eb8c4978b",
+  "method_and_dataset_code_unchanged": true
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 0,
+  "n": 1000,
+  "fine_resolution": 9,
+  "coarse_resolution": 8,
+  "versions": {
+    "c": "4.5.0",
+    "python": "4.5.0"
+  },
+  "mismatch_count": 68,
+  "point": {
+    "latitude": 30.227154132654743,
+    "longitude": 120.18047689694129,
+    "fine": "89309a42bd7ffff",
+    "logical_parent": "88309a42bdfffff",
+    "direct_coarse": "88309a42b9fffff"
+  }
+}
