@@ -19,7 +19,7 @@ out = root / "output/pdf"
 out.mkdir(parents=True, exist_ok=True)
 pdfmetrics.registerFont(TTFont("Chinese", r"C:\Windows\Fonts\simsun.ttc", subfontIndex=0))
 body = ParagraphStyle("Body", fontName="Chinese", fontSize=10.5, leading=17,
-                      spaceAfter=7, wordWrap="CJK")
+                      spaceAfter=7, wordWrap="CJK", allowWidows=0, allowOrphans=0)
 title = ParagraphStyle("Title", parent=body, fontSize=20, leading=29, spaceAfter=16)
 heading = ParagraphStyle("Heading", parent=body, fontSize=14, leading=22,
                          spaceBefore=12, spaceAfter=8, keepWithNext=True)

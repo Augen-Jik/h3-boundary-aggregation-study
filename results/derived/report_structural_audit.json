@@ -1,0 +1,9 @@
+{
+  "pages": 13,
+  "figures": 13,
+  "author": "jinchenying",
+  "required_links_pass": true,
+  "dialogue_hash_pass": true,
+  "pdf_sha256": "a60b58b3d93f15b00174a481ecf5814f43e104d9d7699caa968284b91e387b27",
+  "visual_page_review": "required separately after latest render"
+}

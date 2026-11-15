@@ -6,9 +6,11 @@
 
 ## 当前状态
 
-原版开发90组、随机评测180组和成本18组已完成。之后的46080次极近边界检查发现4条内部误判，全部保留。修订版增加数值余量探测，重新通过边界与90组开发检查，并以新种子200至209完成180组随机评测，均逐点匹配直接编码。修订版成本正在执行。实际Codex记录和网页GPT问答已公开快照，最终报告与对话末次更新仍待完成。
+最终报告、代码、原始结果、图表及实际AI协作记录已整理。原版与修订版各有90组开发、180组随机评测与18条成本工作负载。原版46080次极近边界检查发现4条误判，证据完整保留；修订版边界回归及新种子评测均逐点一致。修订版在每批10万点、20个新批次时的B1/M2耗时比为U组1.108、C组1.124；每批1000与10000点时仍更慢。结论限定测试区域、库版本与输入条件。
 
-- [报告初稿](report_draft.md)
+- [最终图文报告 PDF](output/pdf/H3_course_report.pdf)
+- [最终报告 Markdown](report.md)
+- [报告初稿与演进](report_draft.md)
 - [题目计划与提示脚本](proposal.md)
 - [老师要求](teacher_requirements.md)
 - [实际设计决定与证据范围](decisions.md)
@@ -16,6 +18,8 @@
 - [实际Codex协作记录](conversations/01_codex_actual.md)
 - [网页GPT技术审查](conversations/02_web_gpt_review.md)
 - [提交核查清单](delivery_checklist.md)
+- [实验覆盖与源码绑定审计](results/derived/experiment_coverage_audit.json)
+- [PDF结构核查](results/derived/report_structural_audit.json)
 
 ## 复现
 
@@ -33,6 +37,8 @@ python reproduce.py --version v2 --output /absolute/path/h3_v2_rerun
 绘图由summarize.py、summarize_workloads.py、extra_figures.py与boundary_figure.py生成。添加--revision-v2可汇总修订版，原版读取snapshot/results/evaluation与workload_snapshot，修订版读取revision_v2/results。配置和代码哈希冻结于评测结果目录。resume_fix.json记录JSON配置比较修复，旧计时和修改前源码保留在recovery_evidence。verify_experiments.py在全量结果齐全后核对两个版本。
 
 PDF排版另使用requirements-report.txt，源文件为build_report_pdf.py，Windows下读取系统宋体。该脚本将报告渲染成PDF并生成逐页PNG供检查。实验环境与绘图环境分别记录，results/render_environment.json保存实际本地绘图依赖；原始实验在远端固定版本执行。排版、绘图与数据生成均不计入方法运行时间。
+
+结果与图表齐全后，依次运行verify_experiments.py、finalize_report.py、build_report_pdf.py --final和verify_report.py。实际对话是截至导出时的快照，范围与排除项见conversations/export_manifest.json。网页GPT原始问答中的引用标记按原文保留，报告正文使用可访问的来源链接。
 
 ## 资料与局限
 
