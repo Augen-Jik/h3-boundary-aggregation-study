@@ -43,6 +43,8 @@ while index < len(source):
     if line.startswith("# "):
         title_text = text(line[2:]).replace("与局部重编码方法", "<br/>与局部重编码方法")
         story.append(Paragraph(title_text, title))
+    elif line.startswith("### "):
+        story.append(Paragraph(text(line[4:]), heading))
     elif line.startswith("## "):
         story.append(Paragraph(text(line[3:]), heading))
     elif line.startswith("!["):
