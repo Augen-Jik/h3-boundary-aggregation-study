@@ -1,0 +1,12 @@
+{
+  "author": "jinchenying",
+  "pages": 14,
+  "figures": 13,
+  "editable_tables": 7,
+  "native_equations": 1,
+  "result_tables_match_markdown": true,
+  "render_engine": "Microsoft Word native PDF export; packaged render_docx.py with PDFium rasterizer",
+  "visual_page_review": "PASS: all 14 pages inspected",
+  "source_report_sha256": "f61899e488c178da4e26641fff1360fed1a369a486e26cc32b129fd7dd0a8bf7",
+  "docx_sha256": "2ada3b56169b671b8d16dcf4fec1489ffd1d8b9661e3db547ff3e6910ecdaa92"
+}
