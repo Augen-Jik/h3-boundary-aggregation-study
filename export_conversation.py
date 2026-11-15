@@ -55,7 +55,7 @@ header = """# H3 课程项目实际 AI 协作记录
 本文件是截至导出时的快照。此后新增对话需重新导出。前置STAG研究对话不属于本课程项目，未混入。计划书中的逐轮问题属于脚本，不能当作已经发生的学生对话。
 
 """
-text = header + "\n".join(lines)
+text = (header + "\n".join(lines)).replace("\r\n", "\n")
 path = output / "01_codex_actual.md"
 path.write_text(text, encoding="utf-8", newline="\n")
 manifest = dict(source_session_id="01a1b966-6db0-7ca0-9a55-5e031202a794",
