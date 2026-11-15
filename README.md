@@ -23,7 +23,7 @@
 - [原始记录重新计算审计](results/derived/current_results_audit.json)
 - [全部实际协作记录索引](conversations/README.md)
 - [主要对话：指定分享会话导出](conversations/01_codex_actual.md)
-- [网页GPT技术审查](conversations/02_web_gpt_review.md)
+- [网页GPT技术审查](conversations/02技术审查对话.md)
 - [提交核查清单](delivery_checklist.md)
 - [实验覆盖与源码绑定审计](results/derived/experiment_coverage_audit.json)
 - [PDF结构核查](results/derived/report_structural_audit.json)
