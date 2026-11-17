@@ -124,5 +124,5 @@ while i<len(lines):
 
 out=root/'output/docx/H3_course_report.docx';out.parent.mkdir(parents=True,exist_ok=True)
 doc.save(out)
-assert figure_count==13 and table_count==7
+assert figure_count==len(re.findall(r"^!\[", (root/"report.md").read_text(encoding="utf-8"), re.M)) and table_count>=7
 print(out,'figures',figure_count,'tables',table_count)

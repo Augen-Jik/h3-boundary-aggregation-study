@@ -1,0 +1,18 @@
+{
+  "B1": {
+    "peak_bytes": 6414032,
+    "retained_bytes": 312
+  },
+  "B1s": {
+    "peak_bytes": 24745,
+    "retained_bytes": 80
+  },
+  "M2": {
+    "peak_bytes": 8287207,
+    "retained_bytes": 4057310
+  },
+  "M3": {
+    "peak_bytes": 4322838,
+    "retained_bytes": 3944974
+  }
+}

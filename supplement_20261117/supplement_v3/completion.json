@@ -1,0 +1,17 @@
+{
+  "cost_workloads": 21,
+  "drift_workloads": 9,
+  "new_region_cases": 108,
+  "new_region_points": 540000,
+  "new_region_point_mismatches": 0,
+  "regression_rows": 12,
+  "hashes": {
+    "methods.py": "1e168892f53f66f630f78cba482ff5f512a0f187c4b88461c4fe53686709bb20",
+    "methods_v2.py": "32a053054ef0016c21b3d5e8e49f4dcd669a7e1d25cbfe34b62c756e17b29a26",
+    "methods_count.py": "06525c48b651cb540cf866c68b01f3bde0fd32f955598d31c57eb3d606a2abf2",
+    "datasets.py": "3673973556a815e5ffb2fc35bc04cd6907d7c802c977e3e89fedbab750d4afb5",
+    "run_supplement_v3.py": "d241d0d4b1e42d64281b3fbb8f56473e9c3f0da2e50403a1d94c238e270b18b9",
+    "supplement_v3/PROTOCOL.md": "698cfd8ccfb9894a9853cfb4587fc1f12bfed4e6ca677e1c5b5ec88ffa4f7d5d",
+    "test_count_recoder.py": "d073e3b73abb67a8e4803bdef605696af80e962cb7bc325c440eea388aa3d3fa"
+  }
+}

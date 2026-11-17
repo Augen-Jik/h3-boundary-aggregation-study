@@ -1,0 +1,98 @@
+[
+  {
+    "region": "hangzhou",
+    "fine": 9,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1113
+  },
+  {
+    "region": "hangzhou",
+    "fine": 10,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [
+      {
+        "point": [
+          30.206669155279936,
+          120.15566013698275
+        ],
+        "actual_fine": "8a309a4018d7fff",
+        "assigned": "88309a4019fffff",
+        "reference": "88309a4011fffff",
+        "interior": true
+      }
+    ],
+    "interior_points": 5472
+  },
+  {
+    "region": "hangzhou",
+    "fine": 10,
+    "coarse": 9,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1246
+  },
+  {
+    "region": "nanjing",
+    "fine": 9,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1119
+  },
+  {
+    "region": "nanjing",
+    "fine": 10,
+    "coarse": 8,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [
+      {
+        "point": [
+          32.070282488695945,
+          118.8084797545481
+        ],
+        "actual_fine": "8a30911804d7fff",
+        "assigned": "8830911805fffff",
+        "reference": "883091182bfffff",
+        "interior": true
+      },
+      {
+        "point": [
+          32.07748218375047,
+          118.80532229349768
+        ],
+        "actual_fine": "8a3091180cd7fff",
+        "assigned": "883091180dfffff",
+        "reference": "8830911805fffff",
+        "interior": true
+      },
+      {
+        "point": [
+          32.07748218375046,
+          118.80532229349768
+        ],
+        "actual_fine": "8a3091180cd7fff",
+        "assigned": "883091180dfffff",
+        "reference": "8830911805fffff",
+        "interior": true
+      }
+    ],
+    "interior_points": 5504
+  },
+  {
+    "region": "nanjing",
+    "fine": 10,
+    "coarse": 9,
+    "tested_points": 7680,
+    "source_cells": 128,
+    "failures": [],
+    "interior_points": 1165
+  }
+]

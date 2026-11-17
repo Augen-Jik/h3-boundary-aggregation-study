@@ -91,7 +91,7 @@ for j,(rf,rc) in enumerate([(9,8),(10,8),(10,9)]):
     risks=[st.mean(r['risk_fraction'] for r in regions if r['city']==city and r['rf']==rf and r['rc']==rc) for city in cities]
     axs[1].plot(range(4),risks,marker='o',label=f'{rf} to {rc}')
 for ax in axs:ax.set_xticks(range(4),cities,rotation=15);ax.legend(fontsize=8)
-axs[0].set_ylabel('Point mismatches, all registered cases');axs[1].set_ylabel('Risk-point fraction, U/C/B pooled descriptively');fig.tight_layout();finish('04_new_regions')
+axs[0].set_ylabel('Point mismatches, all registered cases');axs[0].set_ylim(bottom=0,top=max(1,sum(r['point_mismatches'] for r in regions)*1.1));axs[1].set_ylabel('Risk-point fraction, U/C/B pooled descriptively');fig.tight_layout();finish('04_new_regions')
 fig,ax=plt.subplots(figsize=(7,4));names=list(memory)
 ax.bar(names,[memory[n]['peak_bytes']/1024**2 for n in names],color='#247aab',label='Peak')
 ax.bar(names,[memory[n]['retained_bytes']/1024**2 for n in names],color='#27a08d',label='Retained')

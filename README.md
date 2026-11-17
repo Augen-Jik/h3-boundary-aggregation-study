@@ -8,8 +8,16 @@
 
 原版与修订版各完成90组开发验证、180组随机评测及18条成本工作负载。原版在46080次极近边界检查中出现4条误判。修订版通过已登记边界回归，并在新种子评测中得到逐点一致结果。每批10万点、累计20个新批次时，修订版相对同期直接编码的耗时比B1/M2为U组1.108、C组1.124；每批1000与10000点时仍较慢。因此，方法定位为已有细格编码、较密集新批次任务下的条件性优化。有限探测不构成全域正确性证明。
 
+2026年11月17日已在指定SSH服务器完成M3补充实验，包含21条成本序列、9条空间漂移序列、108组新区域检查及旧失败回归。M3沿用M2分类器，以格内点数直接汇总安全细格。每批10万点、累计20批时，相对每个种子中较快的直接编码参照，平均耗时比为U组1.071、C组1.089。小批次与边界压力组仍较慢，三种漂移条件在10批内均未获得累计优势。新增四个区域共54万点的M2逐点差异与M3计数差异均为0，但这不构成全球正确性证明。完整条件、种子范围与内存负结果见报告第12节。
+
 - [主要对话：与ai对话过程](conversations/)
 - [最终报告 Markdown](report.md)
+- [课程报告 Word 可编辑版](output/docx/H3_course_report.docx)
+- [课程报告 PDF](output/pdf/H3_course_report.pdf)
+- [补充实验协议、代码与说明](supplement_20261117/)
+- [补充实验审计与全部结果汇总](supplement_20261117/derived/summary.json)
+- [补充实验逐种子成本表](supplement_20261117/derived/seed_results.csv)
+- [既有日志的补充分析](supplement_analysis/analysis.json)
 - [修订版实验分层汇总](results/derived_v2/independent_summary.csv)
 - [原版实验分层汇总](results/derived/independent_summary.csv)
 - [原始记录重新计算审计](results/derived/current_results_audit.json)
@@ -29,6 +37,21 @@ python reproduce.py --version v2 --output /absolute/path/h3_v2_rerun
 
 绘图由summarize.py、summarize_workloads.py、extra_figures.py与boundary_figure.py生成。添加--revision-v2可汇总修订版，原版读取snapshot/results/evaluation与workload_snapshot，修订版读取revision_v2/results。配置和代码冻结于评测结果目录。resume_fix.json记录JSON配置比较修复，旧计时和修改前源码保留在recovery_evidence。verify_experiments.py在全量结果齐全后核对两个版本。
 
+补充实验的独立复现步骤见[supplement_20261117/README.md](supplement_20261117/README.md)。从现有结果重新生成分析与报告时依次运行以下程序，无需再次运行计时任务。
+
+```bash
+python analyze_supplement.py
+python summarize_supplement_v3.py
+python kernel_figure.py
+python update_supplement_report.py
+python build_report_pdf.py
+python build_report_docx.py
+python verify_report.py
+python verify_final_delivery.py --visual-reviewed 25 23
+```
+
+PDF与Word当前分别为25页和23页，内容均包含25幅图、14张表。Word中的表格及核心公式可编辑。两种格式均已逐页检查。生成报告需要相应文档依赖；Word页数由Microsoft Word原生排版核查，其他软件的分页可能不同。
+
 ## 资料与局限
 
 - [H3官方层级说明](https://h3geo.org/docs/highlights/indexing/)
@@ -38,4 +61,4 @@ python reproduce.py --version v2 --output /absolute/path/h3_v2_rerun
 full接口是实验功能，局部样本一致性不构成全域安全证明。B为边界压力分布，不能并入常规数据声称真实城市平均差异。已有细格编码为上游输入，计时与从原坐标开始的端到端成本应分别解释。相同不变数据重复查询时，预存粗计数是必要强基线。
 
 
-计时范围补充：M初始对象构造位于计时外，A1每批对象构造位于计时内。首批几何分类和新增细格处理已计时。A1/M反映组合状态复用与对象生命周期差异，不识别单一缓存组件的因果贡献。
+计时范围补充：旧版与修订版成本实验中，M初始对象构造位于计时外，A1每批对象构造位于计时内。首批几何分类和新增细格处理已计时。11月17日补充实验将M2和M3初始构造均纳入计时，A3每批重建M3对象。只进行同期方法比较，不将不同计时协议之间的绝对耗时差解释为改动的因果效果。跨批复用比较反映组合状态及对象生命周期差异，不识别单一缓存组件的贡献。

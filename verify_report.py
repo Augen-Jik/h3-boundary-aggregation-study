@@ -27,15 +27,17 @@ for page in reader.pages:
         if "/URI" in action:
             links.append(str(action["/URI"]))
 required = ["https://github.com/Augen-Jik/h3-boundary-aggregation-study",
-            "https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/01_codex_actual.md",
-            "https://github.com/Augen-Jik/h3-boundary-aggregation-study/blob/main/conversations/02_web_gpt_review.md"]
+            "https://github.com/Augen-Jik/h3-boundary-aggregation-study/tree/main/conversations"]
 assert all(link in links for link in required), links
-export = json.loads((root / "conversations/export_manifest.json").read_text())
-assert export["website_review_export_complete"]
-assert hashlib.sha256((root / "conversations/01_codex_actual.md").read_bytes()).hexdigest() == export["output_sha256"]
+conversation = root / "conversations/01对话.md"
+assert conversation.exists()
+conversation_text = conversation.read_text(encoding="utf-8")
+assert len(re.findall(r"^### (?:用户|User)$", conversation_text, re.M)) == 9
+assert len(re.findall(r"^### (?:ChatGPT|Assistant)$", conversation_text, re.M)) == 9
 result = dict(pages=len(reader.pages), figures=len(images), author=reader.metadata.author,
               pdf_path=str(pdf_path.relative_to(root)),
-              required_links_pass=True, dialogue_hash_pass=True,
+              required_links_pass=True, dialogue_message_pairs=9,
+              dialogue_current_sha256=hashlib.sha256(conversation.read_bytes()).hexdigest(),
               pdf_sha256=hashlib.sha256(pdf_path.read_bytes()).hexdigest(),
               visual_page_review="required separately after latest render")
 (root / "results/derived/report_structural_audit.json").write_text(json.dumps(result, indent=2))

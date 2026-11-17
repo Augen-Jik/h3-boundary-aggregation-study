@@ -4,6 +4,10 @@ import json
 from pathlib import Path
 
 root = Path(__file__).parent
+if (root / "supplement_20261117/supplement_v3/completion.json").exists():
+    import runpy
+    runpy.run_path(str(root / "update_supplement_report.py"), run_name="__main__")
+    raise SystemExit(0)
 audit = json.loads((root / "results/derived/experiment_coverage_audit.json").read_text())
 assert {r["version"] for r in audit["reports"]} == {"v1", "v2"}
 assert all(r["coverage_pass"] for r in audit["reports"])

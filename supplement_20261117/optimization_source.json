@@ -1,0 +1,15 @@
+{
+  "source_share_url": "https://chatgpt.com/share/6afc0b67-f9a8-83ea-b516-1aef29bf53cf",
+  "source_chat_title": "优化实验报告",
+  "source_chat_id": "6afbea71-9044-83e9-bedf-4af5c8306f0d",
+  "source_package_sha256": "bfabda155a4862a5ca17720cd9beb4c2615d79af917327e8ec9aea0a3d8c88e2",
+  "prior_file_hashes": {
+    "report.md": "16fd96a982127e08c06d0c7ac1031cb889b6e31674fb05b923b4be94ecb358ef",
+    "HANDOFF.md": "167a3a3e5a531c461303855b4bd85e0c299ed6291af73fa98011ad034871a9eb",
+    "methods_count.py": "06525c48b651cb540cf866c68b01f3bde0fd32f955598d31c57eb3d606a2abf2",
+    "run_supplement_v3.py": "38c0b81fef14a32980c4f1a4c13a4209e2f31e42625bebe59ac9146b4b41230f",
+    "supplement_v3/PROTOCOL.md": "5ab33cd7bc2ed0bfdc5f1f571b793bbf699c9dd88feb898201d191c4dda3b7d6"
+  },
+  "prior_status": "Old-log analysis completed; new H3 runs not executed in prior session",
+  "current_action": "Audit prior code, change execution platform to verified SSH server and run frozen supplementary protocol without overwriting original experiments"
+}

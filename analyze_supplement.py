@@ -74,7 +74,7 @@ for ax,d in zip(axs,("U","C")):
     im=ax.imshow(matrix,aspect="auto",vmin=0,vmax=1.25,cmap="YlGnBu")
     ax.set_yticks(range(3),["1000","10000","100000"]);ax.set_xticks([0,4,9,14,19],[1,5,10,15,20]);ax.set_xlabel("累计新批次数");ax.set_title(d+" 分布")
     for y in range(3):
-        for x in (0,4,9,14,19):ax.text(x,y,f"{matrix[y][x]:.2f}",ha="center",va="center",fontsize=8,color="white" if matrix[y][x]>.7 else "#111")
+        for x in (0,4,9,14,19):ax.text(x,y,f"{matrix[y][x]:.2f}",ha=("left" if x==0 else "right" if x==19 else "center"),va="center",fontsize=8,color="white" if matrix[y][x]>.7 else "#111")
 axs[0].set_ylabel("每批点数");fig.colorbar(im,ax=axs,shrink=.8,label="B1 / M2");finish("03_horizon")
 fig,axs=plt.subplots(1,2,figsize=(10,4.2),sharey=True)
 for ax,d in zip(axs,("U","C")):

@@ -1,12 +1,13 @@
 {
   "author": "jinchenying",
-  "pages": 14,
-  "figures": 13,
-  "editable_tables": 7,
+  "pages": 23,
+  "figures": 25,
+  "editable_tables": 14,
+  "table_cells_checked": 405,
   "native_equations": 1,
   "result_tables_match_markdown": true,
   "render_engine": "Microsoft Word native PDF export; packaged render_docx.py with PDFium rasterizer",
-  "visual_page_review": "PASS: all 14 pages inspected",
-  "source_report_sha256": "f61899e488c178da4e26641fff1360fed1a369a486e26cc32b129fd7dd0a8bf7",
-  "docx_sha256": "2ada3b56169b671b8d16dcf4fec1489ffd1d8b9661e3db547ff3e6910ecdaa92"
+  "visual_page_review": "PASS: all 23 rendered pages inspected",
+  "source_report_sha256": "987fc419d9e632b364df4e06ac10295a00261e85777131412509d6cf4143375e",
+  "docx_sha256": "ab955f378f578a1ab6525a56b039651d285b7299983c00509e89e07cce9d3329"
 }
