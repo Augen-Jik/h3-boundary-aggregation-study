@@ -1,0 +1,6 @@
+PASS: empty input, input validation, duplicate multiplicity, warm reuse and 9 direct-oracle cases
+
+Source: actual SSH preflight command output, before starting serial benchmark.
+Remote directory: /root/autodl-tmp/h3-supplement-20261117
+Interpreter: /root/autodl-tmp/h3-boundary-aggregation-study/venv/bin/python
+This is a behavior regression check, not a performance result or global correctness proof.
